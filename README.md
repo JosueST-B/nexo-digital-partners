@@ -11,6 +11,7 @@ Abre `index.html` en el navegador.
 - `index.html`: estructura y contenido de la pagina
 - `styles.css`: diseño responsive premium
 - `script.js`: menu mobile, filtros de portafolio y formulario de solicitud
+- `translations.js`: selector multilingue con ES, EN, DE, FR, PT, IT, RU, CS, ZH, JA, HE y AR
 - `assets/`: hero generado y visuales de portafolio
 
 ## Posicionamiento
@@ -20,3 +21,7 @@ La pagina evita vender "paginas web baratas" y presenta la oferta como una agenc
 ## Inspiracion estrategica
 
 La estructura se inspiro en patrones de agencias corporativas de estrategia, diseno y tecnologia: servicios por capacidades, casos de trabajo, modelos de contratacion, foco en crecimiento/operacion y lenguaje de productos digitales.
+
+## Idiomas
+
+Incluye selector de idioma, persistencia en el navegador y soporte RTL para hebreo y arabe.

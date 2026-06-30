@@ -111,6 +111,7 @@ p {
 
 .brand,
 .site-nav,
+.language-switcher,
 .hero-actions,
 .signal-row,
 .mini-proof,
@@ -171,6 +172,30 @@ p {
 
 .site-nav a:hover {
   color: var(--green);
+}
+
+.language-switcher {
+  gap: 8px;
+  margin-left: auto;
+}
+
+.language-switcher label {
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 950;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.language-switcher select {
+  min-height: 38px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #ffffff;
+  color: var(--ink);
+  padding: 0 9px;
+  font-size: 0.82rem;
+  font-weight: 900;
 }
 
 .nav-cta,
@@ -785,6 +810,26 @@ textarea {
   color: var(--muted);
 }
 
+html[dir="rtl"] body {
+  text-align: right;
+}
+
+html[dir="rtl"] .site-header,
+html[dir="rtl"] .brand,
+html[dir="rtl"] .site-nav,
+html[dir="rtl"] .hero-actions,
+html[dir="rtl"] .signal-row,
+html[dir="rtl"] .mini-proof,
+html[dir="rtl"] .contact-notes,
+html[dir="rtl"] .filter-bar {
+  direction: rtl;
+}
+
+html[dir="rtl"] .industry-grid article {
+  border-right: 4px solid var(--cyan);
+  border-left: 1px solid var(--line);
+}
+
 @media (max-width: 1120px) {
   .menu-button {
     display: block;
@@ -838,9 +883,27 @@ textarea {
     min-width: 0;
   }
 
+  .language-switcher {
+    margin-left: 0;
+    order: 2;
+  }
+
+  .language-switcher label {
+    display: none;
+  }
+
+  .language-switcher select {
+    min-height: 44px;
+    max-width: 70px;
+  }
+
   .brand strong,
   .brand small {
     display: none;
+  }
+
+  .menu-button {
+    order: 3;
   }
 
   .brand-mark {

@@ -13,6 +13,7 @@ Abre `index.html` en el navegador.
 - `script.js`: menu mobile, filtros de portafolio y formulario de solicitud
 - `translations.js`: selector multilingue con ES, EN, DE, FR, PT, IT, RU, CS, ZH, JA, HE y AR
 - `assets/`: hero generado y visuales de portafolio
+- `lead-tracker-template.csv`: plantilla simple para seguimiento de contactos y cotizaciones
 
 ## Posicionamiento
 

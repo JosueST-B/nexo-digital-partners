@@ -123,6 +123,8 @@ quoteForm.addEventListener("submit", (event) => {
     `${translateText("Nicho o industria", lang)}: ${data.get("sector") || translateText("No indicado", lang)}`,
     `${translateText("Prioridad", lang)}: ${data.get("timeline") || translateText("No indicada", lang)}`,
     `${translateText("Objetivo principal", lang)}: ${data.get("goal") || translateText("No indicado", lang)}`,
+    `${translateText("Presupuesto aproximado", lang)}: ${data.get("budget") || translateText("No indicado", lang)}`,
+    `${translateText("Estado del proyecto", lang)}: ${data.get("stage") || translateText("No indicado", lang)}`,
     `${translateText("Contexto del proyecto", lang)}: ${data.get("message") || translateText("Sin descripcion adicional", lang)}`,
     "",
     closing

@@ -445,6 +445,8 @@ p {
 .solution-grid,
 .industry-grid,
 .portfolio-grid,
+.pricing-grid,
+.trust-grid,
 .model-grid,
 .process-grid,
 .authority-grid,
@@ -459,6 +461,8 @@ p {
 
 .industry-grid,
 .portfolio-grid,
+.pricing-grid,
+.trust-grid,
 .model-grid,
 .authority-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -471,10 +475,13 @@ p {
 .solution-card,
 .industry-grid article,
 .portfolio-card,
+.pricing-grid article,
+.trust-grid article,
 .model-grid article,
 .process-grid article,
 .authority-grid article,
 .capability-matrix article,
+.lead-system-panel,
 .proof-panel,
 .quote-form {
   border: 1px solid var(--line);
@@ -485,6 +492,8 @@ p {
 
 .solution-card,
 .industry-grid article,
+.pricing-grid article,
+.trust-grid article,
 .model-grid article,
 .process-grid article,
 .authority-grid article,
@@ -650,6 +659,14 @@ p {
   font-size: 0.92rem;
 }
 
+.case-points {
+  margin: 16px 0 0;
+  padding-left: 18px;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.55;
+}
+
 .text-card {
   display: grid;
   min-height: 100%;
@@ -673,6 +690,91 @@ p {
   background:
     linear-gradient(180deg, #fbf7ed, #ffffff),
     var(--ivory);
+}
+
+.pricing-section {
+  background:
+    linear-gradient(180deg, #ffffff, #fbf7ed),
+    var(--ivory);
+}
+
+.pricing-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.pricing-grid article {
+  display: grid;
+  align-content: start;
+  min-height: 430px;
+}
+
+.pricing-grid span,
+.trust-grid span,
+.lead-system-panel span {
+  display: inline-flex;
+  margin-bottom: 14px;
+  color: var(--green);
+  font-size: 0.78rem;
+  font-weight: 950;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.pricing-grid ul,
+.lead-system-panel ol {
+  margin: 10px 0 22px;
+  padding-left: 20px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.pricing-grid a,
+.lead-system-panel a {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  justify-content: center;
+  align-self: end;
+  border: 1px solid var(--green-deep);
+  border-radius: var(--radius);
+  padding: 0 14px;
+  color: var(--green-deep);
+  font-weight: 900;
+}
+
+.pricing-grid a:hover,
+.lead-system-panel a:hover {
+  background: var(--green-deep);
+  color: #ffffff;
+}
+
+.featured-price {
+  border-color: rgba(189, 143, 56, 0.7) !important;
+  background:
+    linear-gradient(180deg, #fffdf7, #ffffff),
+    #ffffff !important;
+  transform: translateY(-10px);
+}
+
+.trust-section {
+  background: #ffffff;
+}
+
+.trust-grid article {
+  border-top: 4px solid var(--cyan);
+}
+
+.lead-system-section {
+  display: grid;
+  grid-template-columns: 1fr minmax(300px, 430px);
+  gap: 42px;
+  align-items: center;
+  background:
+    linear-gradient(120deg, #eef3ef 0%, #ffffff 54%, #fbf7ed 100%);
+}
+
+.lead-system-panel {
+  padding: 28px;
 }
 
 .model-grid article {
@@ -792,6 +894,29 @@ textarea {
   font-weight: 900;
 }
 
+.floating-whatsapp {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  z-index: 70;
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  border-radius: 999px;
+  padding: 0 18px;
+  background: #1f8f55;
+  color: #ffffff;
+  font-size: 0.86rem;
+  font-weight: 950;
+  box-shadow: 0 18px 38px rgba(13, 61, 45, 0.28);
+}
+
+.floating-whatsapp:hover {
+  background: #166d42;
+}
+
 .site-footer {
   display: flex;
   align-items: center;
@@ -865,12 +990,15 @@ html[dir="rtl"] .industry-grid article {
   .solution-grid,
   .industry-grid,
   .portfolio-grid,
+  .pricing-grid,
+  .trust-grid,
   .model-grid,
   .process-grid,
   .authority-grid,
   .position-section,
   .capabilities-section,
   .contact-section,
+  .lead-system-section,
   .portfolio-head {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -974,20 +1102,29 @@ html[dir="rtl"] .industry-grid article {
   .solution-grid,
   .industry-grid,
   .portfolio-grid,
+  .pricing-grid,
+  .trust-grid,
   .model-grid,
   .process-grid,
   .authority-grid,
   .position-section,
   .capabilities-section,
   .contact-section,
+  .lead-system-section,
   .portfolio-head,
   .capability-matrix,
   .form-row {
     grid-template-columns: 1fr;
   }
 
-  .featured-model {
+  .featured-model,
+  .featured-price {
     transform: none;
+  }
+
+  .floating-whatsapp {
+    right: 16px;
+    bottom: 16px;
   }
 
   .site-footer {

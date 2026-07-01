@@ -12,7 +12,7 @@ Abre `index.html` en el navegador.
 - `styles.css`: diseño responsive premium
 - `script.js`: menu mobile, filtros de portafolio y formulario de solicitud
 - `translations.js`: selector multilingue con ES, EN, DE, FR, PT, IT, RU, CS, ZH, JA, HE y AR
-- `assets/`: hero generado y visuales de portafolio
+- `assets/`: hero health-tech generado, favicon y visuales de portafolio
 - `lead-tracker-template.csv`: plantilla simple para seguimiento de contactos y cotizaciones
 
 ## Posicionamiento

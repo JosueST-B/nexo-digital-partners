@@ -14,6 +14,7 @@ Abre `index.html` en el navegador.
 - `translations.js`: selector multilingue con ES, EN, DE, FR, PT, IT, RU, CS, ZH, JA, HE y AR
 - `assets/`: hero health-tech generado, favicon y visuales de portafolio
 - `lead-tracker-template.csv`: plantilla simple para seguimiento de contactos y cotizaciones
+- `social/facebook/`: kit de lanzamiento para Facebook con portada, perfil, arte del primer post y textos de publicacion
 
 ## Posicionamiento
 

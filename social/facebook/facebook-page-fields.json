@@ -1,0 +1,29 @@
+{
+  "page_name": "Nexo Digital Partners",
+  "username_suggestions": [
+    "NexoDigitalPartners",
+    "NexoDigitalEC",
+    "NexoDigitalStudio",
+    "NexoDigitalSystems"
+  ],
+  "categories": [
+    "Consulting agency",
+    "Web designer",
+    "Business service",
+    "Marketing agency",
+    "Software company"
+  ],
+  "website": "https://josuest-b.github.io/nexo-digital-partners/",
+  "email": "josuepug@gmail.com",
+  "whatsapp": "+593 98 741 1592",
+  "service_area": "Ecuador y remoto",
+  "cta": "Enviar mensaje",
+  "short_bio": "Sistemas digitales, webs, IA y automatizacion para negocios, salud, educacion y servicios.",
+  "long_description": "Nexo Digital Partners crea activos digitales para profesionales, creadores y negocios que necesitan vender, captar y operar mejor: paginas web, landing pages, dashboards, formularios inteligentes, automatizaciones con IA, catalogos digitales, tests interactivos y micro-apps. Trabajamos con enfoque health-tech, educativo y corporativo: primero ordenamos la oferta y el flujo comercial, luego construimos una experiencia clara, usable y lista para compartir.",
+  "launch_post": "Hoy lanzamos Nexo Digital Partners: una agencia de sistemas digitales para profesionales, servicios de salud, educacion, consultoria y negocios que necesitan vender y operar mejor.\n\nCreamos webs, landing pages, formularios inteligentes, dashboards y automatizaciones con IA. Agenda un diagnostico digital y convertimos tu idea en un activo listo para compartir.\n\n#NexoDigitalPartners #SistemasDigitales #AutomatizacionIA #WebsProfesionales #HealthTech #Dashboards",
+  "assets": {
+    "profile": "facebook-profile-nexo-digital-partners.png",
+    "cover": "facebook-cover-nexo-digital-partners.png",
+    "launch_post": "facebook-launch-post-nexo-digital-partners.png"
+  }
+}

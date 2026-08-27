@@ -136,15 +136,17 @@ p {
   width: 48px;
   height: 48px;
   place-items: center;
-  border: 1px solid rgba(189, 143, 56, 0.58);
+  overflow: hidden;
+  border: 1px solid rgba(78, 193, 194, 0.42);
   border-radius: var(--radius);
-  background:
-    linear-gradient(135deg, rgba(31, 114, 87, 0.94), rgba(16, 32, 31, 0.98)),
-    var(--green-deep);
-  color: #ffffff;
-  font-size: 0.86rem;
-  font-weight: 950;
+  background: #071315;
   box-shadow: var(--shadow-soft);
+}
+
+.brand-mark img {
+  width: 88%;
+  height: 88%;
+  object-fit: contain;
 }
 
 .brand strong,

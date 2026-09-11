@@ -61,6 +61,10 @@ async function main() {
     assert.equal(await page.locator('#project-dialog').isVisible(), false);
     assert.equal(await page.locator('[data-preview="medstock"]').evaluate(e => e === document.activeElement), true);
     await page.locator('[data-filter="all"]').click();
+    for (const image of await page.locator('.portfolio-card img').all()) {
+      await image.scrollIntoViewIfNeeded();
+      await image.evaluate(img => img.decode());
+    }
     const images = await page.locator('.portfolio-card img').evaluateAll(images => images.filter(img => !img.complete || img.naturalWidth === 0).map(img => img.src));
     assert.deepEqual(images,[]);
     await page.locator('.pricing-grid [data-project="automation"]').click();

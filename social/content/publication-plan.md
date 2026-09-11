@@ -1,6 +1,6 @@
 # Nexo Digital Partners - primera serie de publicaciones
 
-Estado: borradores preparados. Ninguna publicacion ha sido enviada a una red social.
+Estado al 2026-09-11: presentacion publicada en LinkedIn. Publicaciones 02-06 pendientes; no programadas ni publicadas. El texto exacto publicado y el enlace estan en `../linkedin/launch-status.md`.
 
 ## Criterio editorial
 
@@ -28,7 +28,7 @@ Conoce el portafolio: https://josuest-b.github.io/nexo-digital-partners/
 
 ## Publicacion 02 - MedStock
 
-**Medio:** `media/02-medstock-dashboard.png`
+**Medio actualizado:** `../../assets/portfolio/medstock-screen.png` (captura real del prototipo local, con datos de demostracion).
 
 **Texto:**
 
@@ -44,7 +44,7 @@ Este tipo de sistema puede adaptarse a inventarios, catalogos, seguimiento inter
 
 ## Publicacion 03 - Inner Oraculum
 
-**Medio:** `media/03-inner-oraculum-platform.png`
+**Medio actualizado:** `../../assets/portfolio/inner-oraculum-screen.png` (captura real de la version local).
 
 **Texto:**
 
@@ -60,7 +60,7 @@ En Nexo construimos sistemas digitales capaces de crecer por etapas, sin rehacer
 
 ## Publicacion 04 - Scriptorium
 
-**Medio:** `media/04-scriptorium-multilingual.png`
+**Medio actualizado:** `../../assets/portfolio/scriptorium-screen.png` (captura del sitio publicado).
 
 **Texto:**
 
@@ -74,7 +74,7 @@ La tecnologia aqui no reemplaza el criterio profesional: lo presenta mejor, faci
 
 ## Publicacion 05 - Psyche Lab
 
-**Medio:** `media/05-psyche-lab-healthtech.png`
+**Medio actualizado:** `../../assets/portfolio/psyche-lab-screen.png` (captura del sitio publicado).
 
 **Texto:**
 
@@ -88,7 +88,7 @@ Este enfoque puede adaptarse a psicologos, coaches, centros de bienestar y proye
 
 ## Publicacion 06 - Volia
 
-**Medio:** `media/06-volia-medical-catalog.jpg`
+**Medio actualizado:** `../../assets/portfolio/volia-screen.png` (captura real de la version local).
 
 **Texto:**
 

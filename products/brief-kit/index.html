@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Nexo Brief</title><link rel="stylesheet" href="brief.css" /><link rel="icon" href="assets/nexo.png" /></head>
+<body>
+<header><a class="brand" href="#"><img src="assets/nexo.png" alt="" width="36" height="36" /><strong>Nexo Brief<span>Digital Partners</span></strong></a><span class="edition">01 / PROJECT BRIEF</span><label class="sr-only" for="language">Idioma / Language</label><select id="language"><option value="es">ES · Español</option><option value="en">EN · English</option></select></header>
+<main>
+  <aside><h1 data-copy="title">Ficha de proyecto</h1><p id="progress-label" role="status"></p><progress id="progress" aria-labelledby="progress-label" max="6" value="0"></progress><nav id="sections" aria-label="Secciones"></nav><div class="privacy"><i data-lucide="shield-check" aria-hidden="true"></i><span data-copy="local">Datos locales</span></div></aside>
+  <div class="workspace">
+    <div class="toolbar"><div><span id="project-title" data-copy="untitled">Sin título</span><small id="status" role="status" data-copy="ready">Listo</small></div><div class="tools">
+      <button id="new" type="button" data-label="new"><i data-lucide="file-plus-2" aria-hidden="true"></i></button>
+      <button id="save" type="button" data-label="save"><i data-lucide="save" aria-hidden="true"></i></button>
+      <button id="import" type="button" data-label="import"><i data-lucide="folder-open" aria-hidden="true"></i></button>
+      <button id="json" type="button" data-label="json"><i data-lucide="download" aria-hidden="true"></i></button>
+      <button id="markdown" type="button" data-label="markdown"><i data-lucide="file-text" aria-hidden="true"></i></button>
+      <button id="print" type="button" data-label="print"><i data-lucide="printer" aria-hidden="true"></i></button>
+    </div></div>
+    <form id="brief-form"></form>
+    <footer><span>Nexo Digital Partners</span><span>v1.0</span></footer>
+  </div>
+</main>
+<input id="import-file" type="file" accept=".json,application/json" hidden />
+<dialog id="confirm-new" aria-labelledby="confirm-title"><h2 id="confirm-title" data-copy="confirm">¿Empezar una ficha nueva?</h2><p data-copy="confirmText">Se reemplazará la ficha actual. Exporta una copia para conservarla.</p><div><button id="cancel-new" type="button" data-copy="cancel">Cancelar</button><button id="accept-new" type="button" data-copy="new">Nueva ficha</button></div></dialog>
+<article id="print-preview" hidden></article>
+<script src="assets/lucide.min.js"></script><script src="brief-model.js"></script><script src="brief.js"></script>
+</body>
+</html>

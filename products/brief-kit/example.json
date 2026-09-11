@@ -1,0 +1,27 @@
+{
+  "format": "nexo-brief",
+  "version": 1,
+  "language": "es",
+  "fields": {
+    "name": "Ejemplo ficticio: portal de talleres",
+    "type": "web",
+    "owner": "Persona responsable del proyecto (ejemplo)",
+    "date": "",
+    "problem": "Las personas no encuentran en un solo lugar los talleres disponibles ni los requisitos para solicitar informacion.",
+    "outcome": "Publicar tres fichas de talleres y un formulario de consulta. Revisar durante el primer mes las consultas recibidas, sin prometer un volumen de ventas.",
+    "users": "Personas adultas interesadas en talleres educativos, principalmente desde el movil.",
+    "action": "Elegir un taller y preparar una consulta por correo.",
+    "languages": "Espanol; ingles queda para una fase posterior.",
+    "must": "Inicio, listado de tres talleres, ficha de cada taller y contacto. Diseno adaptable a movil. Formulario que prepare un correo sin almacenar datos en un servidor.",
+    "later": "Calendario editable y una segunda version en ingles.",
+    "excluded": "Cobros, cuentas de usuario, certificados, evaluaciones clinicas y promesas de posicionamiento.",
+    "acceptance": "Las tres fichas muestran titulo, objetivo y horario. No hay desbordamiento horizontal a 320, 390, 768 y 1440 px. Cada consulta contiene el taller seleccionado. Se puede navegar con teclado y el formulario tiene etiquetas visibles. La persona responsable aprueba los textos antes de publicar.",
+    "content": "Tres textos de taller, logotipo y fotografias con permiso de uso, proporcionados por la persona responsable.",
+    "integrations": "Correo mediante enlace mailto; sin CRM ni pasarela de pago.",
+    "data": "No solicitar salud, documentos de identidad ni pagos. Nombre y medio de contacto solo en el correo que la persona decide enviar.",
+    "deliverables": "HTML, CSS, JavaScript, recursos autorizados, guia de publicacion y lista de verificaciones.",
+    "dependencies": "Textos y horarios aprobados. Dominio y alojamiento, si se requieren, se presupuestan por separado.",
+    "budget": "Por acordar segun alcance escrito; este ejemplo no es una cotizacion.",
+    "review": "Una persona aprueba el contenido. Cantidad de rondas y fechas por acordar antes de iniciar."
+  }
+}

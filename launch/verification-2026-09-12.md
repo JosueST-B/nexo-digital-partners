@@ -13,7 +13,7 @@ Version publica revisada desde el navegador integrado. Doce idiomas (es, en, de,
 - Version imprimible: veinte etiquetas/campos y el ultimo texto de entrega presentes. No se reviso paginacion de un PDF generado.
 - Responsive final: ES/EN por 1440, 768, 390 y 320 px sin desbordamiento de pagina; imagen cargada. Capturas de escritorio y movil inspeccionadas visualmente. La navegacion de secciones movil tiene scroll interno intencional.
 - Cache: la version del stylesheet `brief.css?v=1.0.1` recibe el arreglo `aside{min-width:0}`. Se comprobo su efecto en la pagina publicada.
-- Exportacion JSON: la UI mostro Archivo preparado sin errores de consola, pero el evento de descarga no llego a la herramienta. No se declara una descarga completa verificada. Markdown y PDF paginado requieren completar la comprobacion de entrega.
+- Exportaciones reales verificadas en Chrome: `nexo-brief (1).json` (2228 bytes) coincide por igualdad profunda con el ejemplo completo, metadatos y veinte campos. `nexo-brief.md` (2637 bytes) contiene seis secciones, veinte etiquetas y todos los valores del ejemplo, incluido el tipo localizado. El evento de descarga no llego a la herramienta, pero ambos archivos se guardaron en Descargas y se analizaron directamente. No se reviso el PDF paginado.
 - No se ingresaron datos reales de clientes; solo el ejemplo ficticio incluido en el paquete.
 
 ## Facebook
@@ -22,4 +22,4 @@ Portada, perfil, bio y categorias guardados. Primera publicacion visible con ima
 
 ## Plataformas comerciales
 
-Gumroad: cuenta de Google con sesion cerrada; falta acceso del titular. Fiverr: lectura del perfil externo agotada por tiempo de espera, sin cambios. Workana: borrador preparado, no aplicado. No hay anuncios pagados, postulaciones masivas, DMs o ventas nuevas verificadas.
+Gumroad: panel autenticado confirmado. Borrador `mecev` creado con descripcion, resumen, slug `nexo-brief` y minimo provisional USD 0; ZIP de 1.0 MB cargado, guardado y verificado tras recargar (enlace de archivo persistido, no blob temporal). No publicado; faltan imagenes, confirmacion comercial y metodo de cobro que debe configurar el titular. No se aceptaron acuerdos ni se introdujeron datos bancarios. Fiverr: lectura anterior del perfil externo agotada por tiempo de espera, sin cambios. Workana: borrador preparado, no aplicado. No hay anuncios pagados, postulaciones masivas, DMs o ventas nuevas verificadas.

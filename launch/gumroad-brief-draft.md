@@ -1,6 +1,6 @@
 # Nexo Brief - ficha de producto propuesta
 
-Estado: contenido preparado. No publicado en Gumroad. No hay tienda autenticada, precio aprobado ni cobros configurados.
+Estado: borrador creado y guardado en una cuenta autenticada de Gumroad el 2026-09-12. No publicado. Editor: https://gumroad.com/products/mecev/edit. Descripcion, resumen y slug `nexo-brief` guardados; ZIP de 1.0 MB cargado y presente tras recargar. Minimo provisional de USD 0 (Gumroad activa pay-what-you-want), pendiente de confirmacion antes de publicar. No hay cobros configurados.
 
 ## Titulo
 
@@ -23,14 +23,14 @@ No necesita cuenta ni suscripcion. No traduce tus respuestas ni genera contenido
 
 ## Propuesta comercial, no configurada
 
-Usarlo inicialmente como recurso gratuito para mostrar el criterio de trabajo de Nexo. No publicar un precio ni prometer soporte recurrente sin acordarlo. Los proyectos a medida se cotizan por separado en los canales de servicios.
+Usarlo inicialmente como recurso gratuito para mostrar el criterio de trabajo de Nexo. El borrador tiene minimo USD 0, sin importe sugerido. No publicar un precio ni prometer soporte recurrente sin acordarlo. Los proyectos a medida se cotizan por separado en los canales de servicios.
 
 ## Requisitos antes de publicar
 
-1. El titular inicia sesion en Gumroad. No pedir contrasenas en el chat.
-2. Revisar las condiciones vigentes y completar personalmente cualquier aceptacion vinculante, verificacion de identidad o configuracion de cobros.
+1. Acceso autenticado confirmado; no se solicitaron contrasenas ni codigos.
+2. El titular debe completar personalmente cualquier aceptacion vinculante, verificacion de identidad o configuracion de cobros. Gumroad indica que el metodo de cobro es requisito para publicar.
 3. Confirmar nombre visible, modalidad gratuita o precio, y descripcion de la entrega.
-4. Subir solo el ZIP verificado, una captura real y comprobar la pagina final.
+4. ZIP verificado ya subido y persistido. Falta portada/captura real, miniatura y comprobar la pagina final antes de publicar.
 
 Referencia revisada para diferenciar recursos de servicios: https://gumroad.com/help/article/70-can-i-sell-services
 No presentar este recurso como una via para vender servicios prohibidos por la plataforma.

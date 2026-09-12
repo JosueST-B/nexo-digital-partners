@@ -19,16 +19,18 @@ Estado verificado: 2026-09-12. El objetivo general sigue abierto.
 ## Pendiente real
 
 - Verificar el boton principal de contacto de Facebook desde vista de visitante.
-- Completar el canal Gumroad con un producto descargable compatible con sus reglas; no se ha creado ni publicado una tienda en esta etapa.
+- Completar el canal Gumroad: borrador Nexo Brief creado, descripcion y ZIP guardados. Faltan imagenes, confirmacion de modalidad comercial y metodo de cobro del titular; no publicado.
 - Revisar los perfiles existentes de Fiverr y Workana, mantener los servicios lingüisticos y agregar la oferta tecnologica sin inventar experiencia.
-- Completar la verificacion de descargas JSON/Markdown y PDF paginado de Nexo Brief en un navegador que permita observar esos resultados. El borrador del recurso para Gumroad esta en `launch/gumroad-brief-draft.md`.
+- Completar la verificacion de PDF paginado de Nexo Brief. Las descargas JSON y Markdown ya se verificaron como archivos reales en Chrome. El borrador de Gumroad esta documentado en `launch/gumroad-brief-draft.md`.
 - Desarrollar y probar una primera demostracion de automatizacion basada en una necesidad real. Las ideas investigadas aun no son servicios implementados.
 - Revisar manualmente la calidad lingüistica de las traducciones heredadas, ademas de las comprobaciones funcionales ya aprobadas.
 - No hay ventas ni consultas nuevas verificadas. No se han pagado anuncios ni contratado suscripciones.
 
 ## Acceso a plataformas
 
-Gumroad requiere inicio de sesion. Se probo el acceso con Google: la cuenta conocida aparece con sesion cerrada. Se dejo la pestaña abierta y se pidio al titular completar el acceso directamente, sin contrasenas ni codigos en el chat. No se alcanzo un panel autenticado ni se aceptaron condiciones de una cuenta nueva. Facebook se completo mediante el navegador integrado. El acceso al perfil de Fiverr en Brave volvio a agotar el tiempo de espera; no se modifico. No confundir borradores locales con perfiles publicados.
+Gumroad: acceso autenticado confirmado el 2026-09-12. Borrador https://gumroad.com/products/mecev/edit creado con minimo provisional USD 0; descripcion, resumen y ZIP guardados. El archivo persistio tras recargar. No se publico ni se aceptaron condiciones; el titular debe configurar cobros directamente. Facebook se completo mediante el navegador integrado. El acceso anterior al perfil de Fiverr en Brave agoto el tiempo de espera; no se modifico. No confundir borradores con productos publicados.
+
+Actualizacion de pruebas de Nexo Brief: los archivos descargados JSON (2228 bytes) y Markdown (2637 bytes) se analizaron directamente y pasaron las comprobaciones del ejemplo completo. Esto resuelve la limitacion anterior del evento de descarga; el PDF paginado sigue sin verificar.
 
 ## Criterios
 

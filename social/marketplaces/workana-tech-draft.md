@@ -20,7 +20,7 @@ Trabajo con proyectos propios y prototipos que permiten revisar la interfaz y el
 
 **Implementacion:** HTML, CSS y JavaScript; interfaz espanol/ingles; almacenamiento manual en navegador; validacion de importaciones; exportacion JSON/Markdown y documento imprimible.
 
-**Limites:** no sincroniza dispositivos, no envia datos ni integra IA. Completar la verificacion de descargas y PDF antes de anunciar esos flujos como probados en todos los navegadores.
+**Limites:** no sincroniza dispositivos, no envia datos ni integra IA. Descargas JSON y Markdown verificadas en Chrome con el ejemplo ficticio. PDF paginado pendiente; no afirmar compatibilidad probada en todos los navegadores.
 
 **Evidencia:** version publica en el repositorio de Nexo y ZIP con archivos propios. Crear una captura real con datos ficticios antes de subirlo a Workana.
 

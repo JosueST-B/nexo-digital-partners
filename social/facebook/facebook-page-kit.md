@@ -1,5 +1,7 @@
 # Facebook Page Kit
 
+Archivo de preparacion historico. La identidad anterior NX verde y la portada health-tech se sustituyeron por el monograma metalico de Nexo. Para los datos y activos realmente publicados, consultar `launch-status.md`; no volver a cargar las imagenes antiguas de este kit.
+
 ## Datos principales
 
 Nombre de pagina: Nexo Digital Partners

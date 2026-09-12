@@ -1,6 +1,6 @@
 # Nexo Digital Partners - primera serie de publicaciones
 
-Estado al 2026-09-11: presentacion publicada en LinkedIn. Publicaciones 02-06 pendientes; no programadas ni publicadas. El texto exacto publicado y el enlace estan en `../linkedin/launch-status.md`.
+Estado al 2026-09-11: presentacion publicada en LinkedIn y Facebook. Publicaciones 02-06 pendientes; no programadas ni publicadas. Los textos definitivos y enlaces estan en `../linkedin/launch-status.md` y `../facebook/launch-status.md`. El texto 01 de este archivo es el borrador editorial anterior, no una transcripcion del post publicado.
 
 ## Criterio editorial
 

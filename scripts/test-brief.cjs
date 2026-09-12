@@ -2,6 +2,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
+const {pathToFileURL,fileURLToPath} = require('node:url');
 const root = path.resolve(__dirname, '../products/brief-kit');
 const model = require(path.join(root, 'brief-model.js'));
 const sample = JSON.parse(fs.readFileSync(path.join(root, 'example.json'), 'utf8'));
@@ -34,7 +35,8 @@ assert.equal(context.copy.es.typeOptions.length, model.types.length);
 const html = fs.readFileSync(path.join(root,'index.html'),'utf8');
 for (const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)) {
   assert.ok(!/^https?:/.test(match[1]), 'No remote dependencies');
-  assert.ok(fs.existsSync(path.join(root,match[1])), 'Local asset exists: '+match[1]);
+  const asset = fileURLToPath(new URL(match[1],pathToFileURL(root+path.sep)));
+  assert.ok(fs.existsSync(asset), 'Local asset exists: '+match[1]);
 }
 assert.ok(!/\bfetch\s*\(|XMLHttpRequest|sendBeacon|\.innerHTML\s*=|eval\s*\(/.test(source));
 console.log('PASS: schema, field limits, real calendar dates, sample, language parity and local assets. No UI test is implied.');

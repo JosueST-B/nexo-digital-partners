@@ -11,6 +11,7 @@ Pagina: https://www.facebook.com/profile.php?id=61591254974802
 - Bio: Webs, herramientas digitales y automatizacion para profesionales, negocios, salud y educacion. La version publicada conserva las tildes.
 - Categorias: Disenador web (principal) y Empresa de software. La interfaz confirmo ambas despues del guardado.
 - Sitio, telefono y correo existentes comprobados y preservados.
+- Boton principal Contactarnos guardado con destino `https://josuest-b.github.io/nexo-digital-partners/#contacto`. Se volvio a abrir la configuracion y el enlace permanecia guardado; no se agrego un formulario nativo de Facebook.
 - No se cambiaron las paginas Inner Oraculum, Criptorium ni Volia.
 
 ## Primera publicacion
@@ -38,4 +39,4 @@ https://josuest-b.github.io/nexo-digital-partners/
 
 ## Pendiente
 
-Revisar el boton principal de contacto desde la vista de visitante. No se afirma haber configurado uno nuevo. No hay seguidores, consultas ni ventas nuevas verificadas.
+Comprobar tambien el recorrido completo desde una cuenta visitante. La configuracion del boton esta verificada. No hay seguidores, consultas ni ventas nuevas verificadas.

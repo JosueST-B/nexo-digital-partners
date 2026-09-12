@@ -1,6 +1,6 @@
 # Workana - oferta tecnologica complementaria
 
-Estado: borrador, no aplicado al perfil ni publicado. Conservar la oferta existente de edicion, traduccion y localizacion. Agregar una especialidad o proyecto tecnologico de portafolio cuando la interfaz y el perfil actual se hayan revisado.
+Estado: la oferta tecnologica complementaria ya se agrego a Sobre mi y se verifico tras recargar el 2026-09-12. Se conservo la oferta existente de edicion, traduccion y localizacion. Se publico como primer proyecto tecnologico la web de Nexo con captura real y habilidades HTML/CSS/JavaScript. Nexo Brief, descrito abajo, sigue siendo una propuesta adicional. Texto realmente aplicado y evidencia en `social/marketplaces/launch-status.md`.
 
 ## Texto complementario propuesto
 

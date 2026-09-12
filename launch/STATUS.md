@@ -20,7 +20,7 @@ Estado verificado: 2026-09-12. El objetivo general sigue abierto.
 
 - Verificar el boton principal de contacto de Facebook desde vista de visitante.
 - Completar el canal Gumroad: perfil publico de Nexo verificado; borrador Nexo Brief con descripcion, ZIP, portada y miniatura guardados. Falta captura real adicional, confirmacion de modalidad comercial y metodo de cobro del titular; producto no publicado.
-- Revisar los perfiles existentes de Fiverr y Workana, mantener los servicios lingüisticos y agregar la oferta tecnologica sin inventar experiencia.
+- Workana: perfil revisado, oferta tecnologica agregada a Sobre mi y proyecto propio de la web de Nexo publicado con captura real; persistencia comprobada tras recargar. Fiverr: perfil y cuatro ofertas revisados sin cambios; crear una oferta nueva encontro un desafio humano, pendiente del titular. Evidencia en `social/marketplaces/launch-status.md`.
 - Completar la verificacion de PDF paginado de Nexo Brief. Las descargas JSON y Markdown ya se verificaron como archivos reales en Chrome. El borrador de Gumroad esta documentado en `launch/gumroad-brief-draft.md`.
 - Desarrollar y probar una primera demostracion de automatizacion basada en una necesidad real. Las ideas investigadas aun no son servicios implementados.
 - Revisar manualmente la calidad lingüistica de las traducciones heredadas, ademas de las comprobaciones funcionales ya aprobadas.

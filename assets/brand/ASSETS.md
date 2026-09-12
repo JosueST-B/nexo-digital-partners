@@ -22,3 +22,9 @@ Local versions: MedStock, Volia, Inner Oraculum. Public websites: Scriptorium an
 ## Icons
 
 Lucide is vendored under `assets/vendor/`; its license is included in `lucide-LICENSE`.
+
+## Nexo Brief marketplace artwork, September 12, 2026
+
+`products/nexo-brief-cover.png` and `products/nexo-brief-thumbnail.png` were generated with the built-in image tool, referencing the existing metallic Nexo monogram. White/graphite editorial composition, turquoise title and coral numbering. They are conceptual product-cover illustrations, not application screenshots or photographs of physical goods included with the download.
+
+Original outputs: `exec-e7f5b515-5fe0-4510-a5aa-28aed9534dc6.png` (cover) and `exec-faed75fb-4205-42a5-adaa-83c96245ec40.png` (square adaptation). Both were visually inspected and uploaded to the saved Gumroad draft. The cover was also inspected within Gumroad's product preview.

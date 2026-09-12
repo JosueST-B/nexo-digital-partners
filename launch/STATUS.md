@@ -19,7 +19,7 @@ Estado verificado: 2026-09-12. El objetivo general sigue abierto.
 ## Pendiente real
 
 - Verificar el boton principal de contacto de Facebook desde vista de visitante.
-- Completar el canal Gumroad: borrador Nexo Brief creado, descripcion y ZIP guardados. Faltan imagenes, confirmacion de modalidad comercial y metodo de cobro del titular; no publicado.
+- Completar el canal Gumroad: perfil publico de Nexo verificado; borrador Nexo Brief con descripcion, ZIP, portada y miniatura guardados. Falta captura real adicional, confirmacion de modalidad comercial y metodo de cobro del titular; producto no publicado.
 - Revisar los perfiles existentes de Fiverr y Workana, mantener los servicios lingüisticos y agregar la oferta tecnologica sin inventar experiencia.
 - Completar la verificacion de PDF paginado de Nexo Brief. Las descargas JSON y Markdown ya se verificaron como archivos reales en Chrome. El borrador de Gumroad esta documentado en `launch/gumroad-brief-draft.md`.
 - Desarrollar y probar una primera demostracion de automatizacion basada en una necesidad real. Las ideas investigadas aun no son servicios implementados.
@@ -31,6 +31,8 @@ Estado verificado: 2026-09-12. El objetivo general sigue abierto.
 Gumroad: acceso autenticado confirmado el 2026-09-12. Borrador https://gumroad.com/products/mecev/edit creado con minimo provisional USD 0; descripcion, resumen y ZIP guardados. El archivo persistio tras recargar. No se publico ni se aceptaron condiciones; el titular debe configurar cobros directamente. Facebook se completo mediante el navegador integrado. El acceso anterior al perfil de Fiverr en Brave agoto el tiempo de espera; no se modifico. No confundir borradores con productos publicados.
 
 Actualizacion de pruebas de Nexo Brief: los archivos descargados JSON (2228 bytes) y Markdown (2637 bytes) se analizaron directamente y pasaron las comprobaciones del ejemplo completo. Esto resuelve la limitacion anterior del evento de descarga; el PDF paginado sigue sin verificar.
+
+Identidad Gumroad actualizada y verificada en https://pugmaster0.gumroad.com/: Nexo Digital Partners, monograma y biografia sin fotografia del titular. Portada conceptual y miniatura generadas, cargadas y guardadas en el producto; vista previa revisada. El perfil esta publico, pero no hay producto a la venta. Evidencia detallada en `launch/gumroad-brief-draft.md`.
 
 ## Criterios
 

@@ -30,7 +30,16 @@ Usarlo inicialmente como recurso gratuito para mostrar el criterio de trabajo de
 1. Acceso autenticado confirmado; no se solicitaron contrasenas ni codigos.
 2. El titular debe completar personalmente cualquier aceptacion vinculante, verificacion de identidad o configuracion de cobros. Gumroad indica que el metodo de cobro es requisito para publicar.
 3. Confirmar nombre visible, modalidad gratuita o precio, y descripcion de la entrega.
-4. ZIP verificado ya subido y persistido. Falta portada/captura real, miniatura y comprobar la pagina final antes de publicar.
+4. ZIP verificado, portada ilustrativa y miniatura ya subidos y guardados. Vista previa revisada; falta una captura real adicional y comprobar la pagina de entrega final al publicar.
+
+## Identidad y medios guardados - 2026-09-12
+
+- Perfil publico: https://pugmaster0.gumroad.com/; nombre Nexo Digital Partners, monograma sin rostro y biografia de recursos digitales verificados en la pagina publica. Se conserva el usuario y dominio existentes.
+- Diseno del perfil: Inter, fondo blanco y acento `#087f8c` guardados en el editor. No se configuraron HTML personalizado, integraciones ni suscripciones externas.
+- `products/nexo-brief-cover.png`: portada conceptual, 1672 x 941 px. Imagen cargada en Gumroad y revisada en la vista previa despues de guardar y volver al editor.
+- `products/nexo-brief-thumbnail.png`: miniatura cuadrada; Gumroad genero su version de 600 x 600 px, cargada correctamente.
+- Ambas imagenes generadas con la herramienta de imagen, usando el monograma propio como referencia. Representan fichas conceptuales; no son capturas de la herramienta ni fotos de entregables impresos incluidos.
+- La vista previa indica que el producto no esta a la venta. No se pulso Publish; no se configuraron cobros, no se aceptaron contratos ni se envio correo a suscriptores.
 
 Referencia revisada para diferenciar recursos de servicios: https://gumroad.com/help/article/70-can-i-sell-services
 No presentar este recurso como una via para vender servicios prohibidos por la plataforma.

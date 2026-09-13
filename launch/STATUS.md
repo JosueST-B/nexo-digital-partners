@@ -12,6 +12,7 @@ Actualizado: 2026-09-13. El objetivo general sigue abierto; no se declara consol
 - Nexo Brief: herramienta ES/EN y ZIP publicados en `products/brief-kit/`. Importacion, validacion, guardado y recarga probados; descargas reales JSON y Markdown verificadas. Ocho combinaciones idioma/ancho sin desbordamiento. Documento imprimible construido; PDF paginado no verificado. Detalles en `launch/verification-2026-09-12.md`.
 - Nexo Catalog: automatizacion funcional de revision CSV en `products/catalog-check/`. Columnas asignables, validacion, duplicados, filtros, detalle, paginacion y exportaciones reales verificados. ES/EN, datos locales, sin IA ni integracion con inventarios. Evidencia en `launch/catalog-verification-2026-09-13.md`.
 - Enlaces de ambas herramientas en el pie de la web; ultima regresion del enlace Nexo Catalog en doce idiomas por cuatro anchos aprobada.
+- Contacto de Facebook comprobado desde el perfil personal del titular: boton visible y redireccion observada hacia `#contacto`, con formulario presente. No equivale a una prueba anonima; detalle en `social/facebook/launch-status.md`.
 
 ## Preparado, no publicado
 
@@ -27,7 +28,6 @@ Actualizado: 2026-09-13. El objetivo general sigue abierto; no se declara consol
 
 ## Comprobaciones restantes
 
-- Verificar el boton de contacto de Facebook desde vista de visitante.
 - Completar la comprobacion del PDF paginado de Nexo Brief y añadir una captura real adicional a su ficha de Gumroad.
 - Revision editorial de las traducciones heredadas; las comprobaciones funcionales no equivalen a revision nativa ni certificacion linguistica.
 - Completar y verificar la nueva oferta de Fiverr y la entrega comercial de Gumroad cuando se resuelvan los pasos del titular.

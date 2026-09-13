@@ -37,6 +37,12 @@ https://josuest-b.github.io/nexo-digital-partners/
 
 #NexoDigitalPartners #DesarrolloWeb #Automatizacion
 
-## Pendiente
+## Contacto comprobado el 2026-09-13
 
-Comprobar tambien el recorrido completo desde una cuenta visitante. La configuracion del boton esta verificada. No hay seguidores, consultas ni ventas nuevas verificadas.
+- Se cambio temporalmente al perfil personal del titular. La pagina mostro Contactarnos, Seguir y Mensaje; el titular conserva permisos administrativos, por lo que no fue una prueba anonima ni desde una cuenta independiente.
+- Contactarnos exponia una redireccion de Facebook hacia la web de Nexo con `#contacto`. El clic no produjo una pestaña nueva controlable; se abrio el enlace exacto observado en una pestaña de comprobacion y la redireccion resolvio correctamente.
+- Destino canonico: `https://josuest-b.github.io/nexo-digital-partners/#contacto`. El ancla quedo a unos 110 px del borde superior. El formulario `quote-form` mostraba Nombre, Contacto, Tipo de solucion, Contexto del proyecto, Presupuesto aproximado y Preparar solicitud.
+- No se rellenaron ni enviaron solicitudes. Se restauro la identidad de Nexo Digital Partners y se verificaron los controles de administracion y el compositor de la pagina.
+- No se guardan parametros de seguimiento de Facebook en esta evidencia.
+
+No hay seguidores, consultas ni ventas nuevas verificadas.

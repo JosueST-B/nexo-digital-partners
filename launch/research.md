@@ -39,3 +39,9 @@ Linear y Thoughtworks se consultaron como referencias de claridad de navegacion 
 
 - https://linear.app/
 - https://www.thoughtworks.com/
+
+## Papa Parse: automatizacion de catalogos CSV
+
+Fuente primaria revisada el 2026-09-13: https://www.papaparse.com/docs ; repositorio https://github.com/mholt/PapaParse . Se usa la version 5.5.3, copia local y licencia MIT incluida. La API documenta lectura de CSV, deteccion de separadores y exportacion con proteccion de formulas.
+
+Aplicacion implementada: `products/catalog-check/`, Nexo Catalog. Revisa un CSV con columnas asignables, valida precios y existencias, aparta todos los duplicados SKU y exporta registros validos o informe. Es una automatizacion determinista en navegador, no IA, OCR, Docling ni integracion ERP. La idea documental investigada arriba sigue siendo una propuesta distinta, no una capacidad implementada.

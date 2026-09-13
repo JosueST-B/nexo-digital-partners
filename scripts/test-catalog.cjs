@@ -40,3 +40,7 @@ const vm=require('node:vm');const context={};vm.createContext(context);vm.runInC
 for(const key of ['errors','issues'])assert.deepEqual(Object.keys(context.copy.es[key]).sort(),Object.keys(context.copy.en[key]).sort());
 assert.deepEqual(Object.keys(context.copy.es).sort(),Object.keys(context.copy.en).sort());
 console.log('PASS: sample, CSV quoting, decimal modes, duplicate groups, safe numeric limits, formula protection, size/row limits. No browser verification implied.');
+if(process.argv.includes('--fixtures')){
+  const dir=path.join(__dirname,'../verification');fs.mkdirSync(dir,{recursive:true});
+  fs.writeFileSync(path.join(dir,'catalog-pagination.csv'),Papa.unparse([['sku','nombre','categoria','precio','stock'],...Array.from({length:120},(_,i)=>['DEMO-'+String(i+1).padStart(3,'0'),'Producto ficticio '+(i+1),'Prueba','10.00','1'])]));
+}

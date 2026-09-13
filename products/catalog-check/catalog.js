@@ -8,12 +8,12 @@ const copy={
   issues:{width:'Column count differs from the header',length:'A field exceeds 500 characters',sku:'Missing SKU',name:'Missing product name',formula:'Formula-like text or control characters',price:'Invalid price: up to 9 integer digits and 2 decimals, no thousands',stock:'Invalid stock: nonnegative integer of up to 9 digits',duplicate:'Duplicate SKU (case insensitive)'}}
 };
 const $=id=>document.getElementById(id);
-let language='es', raw='', source=null, items=null, page=0, detailItem=null, sequence=0;
+let language='es', raw='', source=null, items=null, page=0, detailItem=null, sequence=0, lastError=null;
 const M=window.CatalogCheck;
 const t=()=>copy[language];
 const node=(tag,text,className)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(className)e.className=className;return e;};
 function icons(){window.lucide?.createIcons();}
-function error(code){$('error').textContent=t().errors[code]||t().errors.file;$('error').hidden=false;$('status').textContent='';}
+function error(code){lastError=code;$('error').textContent=t().errors[code]||t().errors.file;$('error').hidden=false;$('status').textContent='';}
 function clearResults(){items=null;page=0;$('results').hidden=true;$('status').textContent='';}
 function mapping(){return Object.fromEntries(M.fields.map(f=>[f,Number($('map-'+f)?.value??-1)]));}
 function columns(selected=M.suggest(source.headers)) {
@@ -21,7 +21,7 @@ function columns(selected=M.suggest(source.headers)) {
   for(const f of M.fields){const label=node('label');label.append(node('span',t()[f]));const select=node('select');select.id='map-'+f;select.append(new Option(t().choose,'-1'));source.headers.forEach((h,i)=>select.append(new Option(`${i+1}. ${h||'—'}`,String(i))));select.value=String(selected[f]);select.addEventListener('change',clearResults);label.append(select);$('columns').append(label);}
 }
 function parseCurrent(){
-  clearResults();source=null;$('columns').replaceChildren();$('mapping').hidden=false;$('review').disabled=true;$('error').hidden=true;
+  clearResults();source=null;lastError=null;$('columns').replaceChildren();$('mapping').hidden=false;$('review').disabled=true;$('error').hidden=true;
   try{source=M.read(raw,$('delimiter').value==='tab'?'\t':$('delimiter').value);columns();$('review').disabled=false;$('status').textContent=t().ready;}
   catch(e){error(e.message);}
 }
@@ -34,7 +34,7 @@ function applyLanguage(){
   if(source)columns(mapping());
   if(items)render();
   if(detailItem&&$('detail').open)showDetail(detailItem,false);
-  $('error').hidden=true;$('status').textContent=items?t().reviewed:(source?t().ready:'');
+  if(lastError)error(lastError);else{$('error').hidden=true;$('status').textContent=items?t().reviewed:(source?t().ready:'');}
 }
 function showDetail(item,open=true){
   detailItem=item;$('detail-title').textContent=`${t().detailsOf} ${item.record}`;
@@ -71,7 +71,7 @@ $('file').addEventListener('change',async()=>{
 });
 $('sample').addEventListener('click',()=>{$('delimiter').value='';$('decimal').value='.';setSource(M.sample,'nexo-catalog-ejemplo.csv');});
 $('delimiter').addEventListener('change',()=>{if(raw)parseCurrent();});$('decimal').addEventListener('change',clearResults);
-$('review').addEventListener('click',()=>{if(!source)return;clearResults();$('error').hidden=true;try{items=M.review(source,mapping(),$('decimal').value);$('search').value='';$('filter').value='all';render();$('status').textContent=t().reviewed;}catch(e){error(e.message);}});
+$('review').addEventListener('click',()=>{if(!source)return;clearResults();lastError=null;$('error').hidden=true;try{items=M.review(source,mapping(),$('decimal').value);$('search').value='';$('filter').value='all';render();$('status').textContent=t().reviewed;}catch(e){error(e.message);}});
 for(const id of ['filter','search'])$(id).addEventListener(id==='search'?'input':'change',()=>{page=0;render();});
 $('prev').addEventListener('click',()=>{page=Math.max(0,page-1);render();});$('next').addEventListener('click',()=>{page++;render();});
 $('export').addEventListener('click',()=>{if(items?.some(i=>!i.issues.length))download(M.output(items),'nexo-catalog-validos.csv');});

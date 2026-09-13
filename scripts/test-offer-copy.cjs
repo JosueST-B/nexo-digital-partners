@@ -9,6 +9,7 @@ for (const file of ['translations.js', 'studio-copy.js']) {
   vm.runInContext(fs.readFileSync(path.join(root, file), 'utf8'), context, { filename: file });
 }
 const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+assert.ok(html.includes('studio-copy.js?v=20260913-offers'), 'Updated translations need a cache version');
 const sources = [
   'Kit de trabajo con IA',
   'Mapa del proceso, prompts y plantillas con revisión humana. Es un kit de uso manual; las integraciones y la ejecución automática se cotizan por separado.',

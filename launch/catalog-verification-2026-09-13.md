@@ -14,9 +14,11 @@ Demostracion funcional, no integracion ERP ni servicio de IA. CSV local con asig
 - Paginacion real con fixture generado de 120 registros: primera pagina 50, ultima 20, ultimo SKU DEMO-120 y siguiente deshabilitado. Buscar desde la ultima pagina vuelve a pagina 1 y encuentra un solo resultado.
 - Responsive final del CSS `v=1.0.1`: ES/EN por 1440, 768, 390 y 320 px, ocho combinaciones sin desbordamiento horizontal de pagina. Tabla con scroll interno intencional. Logo cargado; capturas de escritorio y movil inspeccionadas. Se corrigio una etiqueta accesible fuera del contenedor posicionando `.table-wrap`.
 - Consola de la UI publicada: sin errores observados durante las comprobaciones.
+- Despliegue final: `catalog.js?v=1.0.1` conserva y traduce el mensaje de CSV malformado al cambiar de ES a EN. Recuperacion con el ejemplo y nueva revision comprobadas.
+- Enlace Nexo Catalog en el pie del sitio: presente y sin desbordamiento de pagina en 12 idiomas por cuatro anchos (48 combinaciones). Se recorrio el enlace y abrio la ruta publica correcta. Esta comprobacion no sustituye una auditoria completa de los otros flujos del sitio.
 
 ## Limites de la verificacion
 
-Pruebas funcionales realizadas en Chromium mediante el navegador integrado. No se afirma certificacion WCAG, compatibilidad con todos los importadores, Excel/ERP ni prueba manual en Safari/Firefox. Solo se usaron datos ficticios. El enlace del pie del sitio y la conservacion del mensaje de error al cambiar idioma se revisan tras su despliegue final.
+Pruebas funcionales realizadas en Chromium mediante el navegador integrado. No se afirma certificacion WCAG, compatibilidad con todos los importadores, Excel/ERP ni prueba manual en Safari/Firefox. Solo se usaron datos ficticios. Las dimensiones temporales del navegador se restablecieron al terminar.
 
 Fuente del motor CSV y licencia: `products/catalog-check/vendor/` y `launch/research.md`.

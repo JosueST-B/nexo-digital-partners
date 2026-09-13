@@ -336,4 +336,69 @@
   for (const [lang, values] of Object.entries(locales)) {
     Object.assign(window.NEXO_TRANSLATIONS[lang], Object.fromEntries(keys.map((key, index) => [key, values[index]])));
   }
+  const offerKeys = [
+    "Kit de trabajo con IA",
+    "Mapa del proceso, prompts y plantillas con revisión humana. Es un kit de uso manual; las integraciones y la ejecución automática se cotizan por separado.",
+    "Un flujo concreto con una función central: formulario, dashboard o micro-app. El alcance, los usuarios y las integraciones se acuerdan antes de cotizar."
+  ];
+  const offerLocales = {
+    en: [
+      "AI workflow kit",
+      "Process map, prompts and templates with human review. This is a manually operated kit; integrations and automatic execution are quoted separately.",
+      "One specific workflow with a core function: a form, dashboard or micro-app. Scope, users and integrations are agreed before quoting."
+    ],
+    de: [
+      "KI-Arbeitskit",
+      "Prozessübersicht, Prompts und Vorlagen mit menschlicher Prüfung. Das Kit wird manuell genutzt; Integrationen und automatische Ausführung werden separat angeboten.",
+      "Ein konkreter Ablauf mit einer Kernfunktion: Formular, Dashboard oder Micro-App. Umfang, Nutzer und Integrationen werden vor der Angebotserstellung vereinbart."
+    ],
+    fr: [
+      "Kit de travail avec l’IA",
+      "Schéma du processus, prompts et modèles avec vérification humaine. Ce kit s’utilise manuellement ; les intégrations et l’exécution automatique font l’objet d’un devis séparé.",
+      "Un processus précis avec une fonction centrale : formulaire, tableau de bord ou micro-application. Le périmètre, les utilisateurs et les intégrations sont définis avant le devis."
+    ],
+    pt: [
+      "Kit de trabalho com IA",
+      "Mapa do processo, prompts e modelos com revisão humana. É um kit de uso manual; integrações e execução automática são orçadas separadamente.",
+      "Um fluxo específico com uma função central: formulário, painel ou microapp. Escopo, usuários e integrações são definidos antes do orçamento."
+    ],
+    it: [
+      "Kit di lavoro con IA",
+      "Mappa del processo, prompt e modelli con revisione umana. Il kit si usa manualmente; integrazioni ed esecuzione automatica sono preventivate separatamente.",
+      "Un flusso specifico con una funzione centrale: modulo, dashboard o micro-app. Ambito, utenti e integrazioni vengono concordati prima del preventivo."
+    ],
+    ru: [
+      "Набор для работы с ИИ",
+      "Схема процесса, промпты и шаблоны с проверкой человеком. Набор используется вручную; интеграции и автоматическое выполнение рассчитываются отдельно.",
+      "Один конкретный процесс с основной функцией: форма, дашборд или мини-приложение. Объём работ, пользователи и интеграции согласуются до расчёта стоимости."
+    ],
+    cs: [
+      "Pracovní sada s AI",
+      "Mapa procesu, prompty a šablony s lidskou kontrolou. Sada se používá ručně; integrace a automatické spouštění se oceňují samostatně.",
+      "Jeden konkrétní postup s hlavní funkcí: formulář, přehledový panel nebo mikroaplikace. Rozsah, uživatelé a integrace se dohodnou před cenovou nabídkou."
+    ],
+    zh: [
+      "AI 工作套件",
+      "包含流程图、提示词和模板，需人工审核。本套件需手动使用；系统集成和自动运行另行报价。",
+      "围绕一个具体流程构建一项核心功能：表单、仪表盘或微应用。报价前确定工作范围、用户和集成需求。"
+    ],
+    ja: [
+      "AI業務キット",
+      "業務フロー図、プロンプト、テンプレートを提供し、人による確認を前提とします。手動で使うキットです。システム連携と自動実行は別途お見積もりします。",
+      "フォーム、ダッシュボード、ミニアプリなど、特定の業務フローに必要な中心機能を構築します。見積もり前に範囲、利用者、連携内容を合意します。"
+    ],
+    he: [
+      "ערכת עבודה עם AI",
+      "מפת תהליך, פרומפטים ותבניות עם בדיקה אנושית. זו ערכה לשימוש ידני; אינטגרציות והפעלה אוטומטית מתומחרות בנפרד.",
+      "תהליך מוגדר עם פונקציה מרכזית: טופס, לוח בקרה או מיני־אפליקציה. היקף העבודה, המשתמשים והאינטגרציות מוסכמים לפני הצעת המחיר."
+    ],
+    ar: [
+      "حزمة عمل بالذكاء الاصطناعي",
+      "خريطة للعملية وموجّهات وقوالب مع مراجعة بشرية. هذه حزمة للاستخدام اليدوي؛ تُسعّر عمليات التكامل والتنفيذ التلقائي بشكل منفصل.",
+      "سير عمل محدد بوظيفة أساسية: نموذج أو لوحة بيانات أو تطبيق مصغّر. يُتفق على النطاق والمستخدمين والتكاملات قبل تقديم عرض السعر."
+    ]
+  };
+  for (const [lang, values] of Object.entries(offerLocales)) {
+    Object.assign(window.NEXO_TRANSLATIONS[lang], Object.fromEntries(offerKeys.map((key, index) => [key, values[index]])));
+  }
 })();

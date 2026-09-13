@@ -2,6 +2,8 @@
 
 Estado al 2026-09-11: presentacion publicada en LinkedIn y Facebook. Publicaciones 02-06 pendientes; no programadas ni publicadas. Los textos definitivos y enlaces estan en `../linkedin/launch-status.md` y `../facebook/launch-status.md`. El texto 01 de este archivo es el borrador editorial anterior, no una transcripcion del post publicado.
 
+Actualizacion 2026-09-13: se publico una pieza adicional de demostracion sobre Nexo Catalog en Facebook, con enlace a la herramienta funcional. Transcripcion y permalink en `../facebook/catalog-post-2026-09-13.md`. Esta pieza no reemplaza ni da por publicadas las piezas 02-06 de abajo.
+
 ## Criterio editorial
 
 - No mostrar el rostro del fundador durante esta etapa.

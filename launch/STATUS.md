@@ -30,7 +30,7 @@ Actualizado: 2026-09-13. El objetivo general sigue abierto; no se declara consol
 
 ## Comprobaciones restantes
 
-- Completar la comprobacion del PDF paginado de Nexo Brief y añadir una captura real adicional a su ficha de Gumroad.
+- Completar la comprobacion del PDF paginado de Nexo Brief y añadir una captura real adicional a su ficha de Gumroad. Exportacion no soportada en el navegador integrado; lectura y captura de la pestaña existente de Chrome no respondieron en la revalidacion del 2026-09-13. No se obtuvo un archivo ni se declaro esa prueba aprobada. Detalle en `launch/gumroad-brief-draft.md`.
 - Completar y verificar la nueva oferta de Fiverr y la entrega comercial de Gumroad cuando se resuelvan los pasos del titular.
 
 ## Limites comerciales

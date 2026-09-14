@@ -43,3 +43,11 @@ Usarlo inicialmente como recurso gratuito para mostrar el criterio de trabajo de
 
 Referencia revisada para diferenciar recursos de servicios: https://gumroad.com/help/article/70-can-i-sell-services
 No presentar este recurso como una via para vender servicios prohibidos por la plataforma.
+
+## Revalidacion de pendientes - 2026-09-13
+
+- Editor recargado: sigue mostrando que no se puede publicar sin conectar un metodo de cobro. El ZIP de 1.0 MB permanece en Content. No se pulso Publish.
+- Se solicito al titular elegir entre recurso gratuito con aportacion opcional o precio fijo. No hay respuesta confirmada en esta comprobacion.
+- La demo de Nexo Brief del navegador integrado muestra el ejemplo ficticio guardado. La exportacion documentada `content.export()` no esta soportada en ese navegador; no produjo un archivo ni una captura adicional.
+- Se intento inspeccionar la pestaña existente de Nexo Brief en Chrome mediante sus APIs documentadas. La lectura de DOM no respondio y la captura posterior agoto el tiempo de la herramienta. No se comprobo una vista de impresion ni se obtuvo un PDF.
+- No se sustituyo una captura real por una ilustracion, ni se afirma que el PDF paginado este verificado. Para cerrar esos dos pendientes hace falta una captura exportable y un PDF generado desde la herramienta, o recuperar el control de esa vista del navegador.

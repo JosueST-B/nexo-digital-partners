@@ -8,7 +8,7 @@ Actualizado: 2026-09-14. El objetivo general sigue abierto; no se declara consol
 - LinkedIn: logo, portada, doce especialidades y descripciones ES/EN. Presentacion publicada: https://www.linkedin.com/feed/update/urn:li:share:7504194026607378432/ . Evidencia en `social/linkedin/launch-status.md`.
 - Facebook: portada, logo, bio y categorias guardados; presentacion fijada en Destacados. Boton Contactarnos configurado hacia el sitio. Segunda publicacion sobre Nexo Catalog visible con audiencia publica y enlace a la demo. Evidencia en `social/facebook/launch-status.md` y `social/facebook/catalog-post-2026-09-13.md`.
 - Workana: se conserva el perfil linguistico y se agrega la oferta tecnologica a Sobre mi. Proyecto propio de la web de Nexo publicado con captura real y HTML/CSS/JavaScript; comprobado despues de recargar. Detalle en `social/marketplaces/launch-status.md`.
-- Gumroad: perfil publico de Nexo con monograma, biografia y diseño de marca: https://pugmaster0.gumroad.com/ . El producto sigue como borrador, no esta a la venta.
+- Gumroad: Nexo Brief publicado con autorizacion del titular a USD 0 con aportacion opcional: https://pugmaster0.gumroad.com/l/nexo-brief . Ficha publica comprobada con marca, descripcion, portada, precio y acceso al checkout; editor muestra Unpublish. No se ha realizado una compra de prueba.
 - Nexo Brief: herramienta ES/EN y ZIP publicados en `products/brief-kit/`. Importacion, validacion, guardado y recarga probados; descargas reales JSON y Markdown verificadas. Ocho combinaciones idioma/ancho sin desbordamiento. Documento imprimible construido; PDF paginado no verificado. Detalles en `launch/verification-2026-09-12.md`.
 - Nexo Catalog: automatizacion funcional de revision CSV en `products/catalog-check/`. Columnas asignables, validacion, duplicados, filtros, detalle, paginacion y exportaciones reales verificados. ES/EN, datos locales, sin IA ni integracion con inventarios. Evidencia en `launch/catalog-verification-2026-09-13.md`.
 - Enlaces de ambas herramientas en el pie de la web; ultima regresion del enlace Nexo Catalog en doce idiomas por cuatro anchos aprobada.
@@ -18,15 +18,14 @@ Actualizado: 2026-09-14. El objetivo general sigue abierto; no se declara consol
 
 ## Preparado, no publicado
 
-- Gumroad: Nexo Brief con descripcion, resumen, portada, miniatura y ZIP guardados. Minimo provisional USD 0 con aportacion opcional. Estado detallado en `launch/gumroad-brief-draft.md`.
-- Fiverr: texto de oferta web en `social/marketplaces/fiverr-web-draft.md`; no se creo el Gig. Las cuatro ofertas linguisticas existentes se conservaron sin cambios.
+- Fiverr: primera pantalla de la oferta web completada, todavia sin guardar por la declaracion obligatoria de licencias y Terminos de Servicio. Se confirmo la eliminacion de la oferta de transcreacion autorizada por el titular; quedan tres ofertas activas. Detalle en `social/marketplaces/fiverr-web-draft.md`.
 - Cuatro fichas comerciales con entregables y limites en `launch/service-offers.md`. Publicaciones de portafolio 02-06 en `social/content/publication-plan.md` son borradores, no una programacion activa.
 - Investigacion de GitHub, Hugging Face, Docling y referencias de empresas en `launch/research.md`. Papa Parse se usa en la demo CSV. OCR/Docling sigue siendo una idea investigada, no una capacidad implementada ni un compromiso de entrega.
 
 ## Requiere al titular
 
-- Gumroad: el 2026-09-14 se abrio configuracion de cobros. Antes de continuar exige declaraciones sobre identificacion oficial y prueba de residencia o registro del negocio. Se dejaron sin marcar. El titular completa esas verificaciones, los datos bancarios y cualquier aceptacion vinculante directamente. Falta confirmar la modalidad comercial antes de publicar.
-- Fiverr: el 2026-09-14 ya permite ver Gigs sin el desafio anterior, pero indica un maximo de cuatro ofertas y las cuatro plazas estan ocupadas. Se requiere decidir si conservar las ofertas linguisticas o revisar una sustitucion por desarrollo web. Ninguna fue pausada, eliminada ni cambiada. No se asume que pausar libere una plaza.
+- Gumroad: el titular completo la configuracion y la confirmacion de Stripe. Ya no se muestran los avisos anteriores de cobros o verificacion pendiente. No equivale a una garantia de aprobacion de revisiones futuras ni de liquidaciones.
+- Fiverr: confirmar la declaracion de licencias necesarias y aceptar los Terminos de Servicio para guardar. Precio y plazo propuestos (USD 150, 7 dias, una pagina, hasta 5 secciones, un idioma, 2 revisiones) pendientes de respuesta del titular antes de publicar.
 
 ## Comprobaciones restantes
 

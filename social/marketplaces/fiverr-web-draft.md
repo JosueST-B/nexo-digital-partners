@@ -1,6 +1,10 @@
 # Fiverr - service draft
 
-Status: not uploaded, saved or published on Fiverr. The existing seller profile could not be inspected because the external browser connection timed out. Preserve the current language and editing services. Do not invent reviews, certifications, years of experience or an agency team.
+Status 2026-09-14: Overview filled in the Fiverr creation form, not yet saved or published. Saving requires the license declaration and Terms of Service acceptance; the checkbox remains unchecked pending explicit confirmation. The user authorized deleting the transcreation gig and completed its browser confirmation; Active 3 and the remaining naming, localization and translation listings were verified. Do not invent reviews, certifications, years of experience or an agency team.
+
+Selected: Programming & Tech > Website Development > Custom Websites; Landing Page; HTML & CSS and JavaScript; FAQ and Landing page features. Tags: landing page, html css, responsive website, web development, business website.
+
+Proposed package awaiting user confirmation: USD 150, 7 days, one page with up to 5 sections, one language, source files and 2 revisions. No package has been published.
 
 ## Proposed title
 

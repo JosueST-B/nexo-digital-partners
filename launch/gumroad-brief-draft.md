@@ -1,6 +1,8 @@
 # Nexo Brief - ficha de producto propuesta
 
-Estado: borrador creado y guardado en una cuenta autenticada de Gumroad el 2026-09-12. No publicado. Editor: https://gumroad.com/products/mecev/edit. Descripcion, resumen y slug `nexo-brief` guardados; ZIP de 1.0 MB cargado y presente tras recargar. Minimo provisional de USD 0 (Gumroad activa pay-what-you-want), pendiente de confirmacion antes de publicar. No hay cobros configurados.
+Estado actual, 2026-09-14: PUBLICADO. URL: https://pugmaster0.gumroad.com/l/nexo-brief . El titular completo cobros y la confirmacion de Stripe y autorizo expresamente la modalidad gratis con aportacion opcional. Se pulso Publish and continue; el editor paso a Share con boton Unpublish. Ficha publica comprobada: USD 0+, marca Nexo, portada, descripcion, resumen, 1 MB y enlace al checkout. No se hizo una compra de prueba ni se verifico la entrega posterior a una compra. Las secciones fechadas siguientes conservan el historial previo.
+
+Content mantiene el ZIP nexo-brief-v1 de 1.0 MB. No se modificaron datos bancarios ni se incluyeron datos privados en este registro. La captura real adicional y la comprobacion del PDF paginado siguen pendientes. Gumroad indica que Discover tiene requisitos adicionales; no se afirma que el producto ya aparezca alli. Share indica que no hay secciones del perfil configuradas para mostrarlo; el enlace directo si funciona.
 
 ## Titulo
 

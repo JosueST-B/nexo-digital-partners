@@ -27,8 +27,8 @@ El 2026-09-12, al pulsar Create a new Gig, Fiverr mostro una verificacion humana
 
 Revalidacion del 2026-09-14: la pestana existente permite acceder a Gigs. Muestra **You can create a maximum of 4 Gigs** y cuatro ofertas activas de naming, transcreacion, localizacion y traduccion. El bloqueo actual es el limite de ofertas, no un CAPTCHA visible. No se pulso otra vez Crear, ni se pauso, elimino o sustituyo ninguna oferta. Se solicito al titular decidir si conserva las cuatro o revisa una posible sustitucion por desarrollo web. No se asume que pausar una oferta libere una plaza; cualquier eliminacion requiere confirmacion especifica antes de ejecutarla.
 
-No se creo una oferta web; el texto propuesto permanece en `fiverr-web-draft.md`.
+Actualizacion posterior del 2026-09-14: el titular autorizo retirar solamente la oferta de transcreacion y completo el aviso de borrado que no respondia al control automatico. Se verifico Active 3 y ausencia de esa oferta. Overview de la nueva landing completado (Custom Websites, Landing Page, HTML/CSS y JavaScript), pero Save exige aceptar Terminos de Servicio y declarar licencias. Casilla sin marcar; no se afirma que el borrador este guardado. Precio/plazo propuestos pendientes de respuesta. Ver `fiverr-web-draft.md`.
 
 ## Gumroad
 
-Perfil publico de Nexo y borrador de producto guardados. Estado detallado, imagenes y limites en `launch/gumroad-brief-draft.md`. Publicacion pendiente de configuracion de cobros y confirmacion comercial; no hay producto a la venta.
+Nexo Brief publicado el 2026-09-14, tras la configuracion de cobros realizada por el titular y su autorizacion expresa para ofrecerlo gratis con aportacion opcional. URL comprobada: https://pugmaster0.gumroad.com/l/nexo-brief . Sin compra de prueba ni ventas verificadas. Detalle, imagenes y limites en `launch/gumroad-brief-draft.md`.

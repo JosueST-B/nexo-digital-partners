@@ -24,6 +24,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Check current-site translations and offer copy
+        run: |
+          python3 scripts/audit-localization.py
+          node scripts/test-offer-copy.cjs
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 

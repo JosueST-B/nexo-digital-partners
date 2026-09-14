@@ -1,6 +1,6 @@
 # Nexo - lanzamiento comercial
 
-Actualizado: 2026-09-13. El objetivo general sigue abierto; no se declara consolidacion comercial ni ventas sin evidencia.
+Actualizado: 2026-09-14. El objetivo general sigue abierto; no se declara consolidacion comercial ni ventas sin evidencia.
 
 ## Publico y comprobado
 
@@ -25,8 +25,8 @@ Actualizado: 2026-09-13. El objetivo general sigue abierto; no se declara consol
 
 ## Requiere al titular
 
-- Gumroad sigue mostrando el requisito de conectar un metodo de cobro, confirmado el 2026-09-13. El titular completa los datos bancarios, identidad y cualquier aceptacion vinculante directamente. Falta confirmar la modalidad comercial antes de publicar.
-- Fiverr sigue mostrando la verificacion humana al abrir la creacion de una oferta. Completarla en la pestaña abierta; no se ha resuelto ni eludido automaticamente.
+- Gumroad: el 2026-09-14 se abrio configuracion de cobros. Antes de continuar exige declaraciones sobre identificacion oficial y prueba de residencia o registro del negocio. Se dejaron sin marcar. El titular completa esas verificaciones, los datos bancarios y cualquier aceptacion vinculante directamente. Falta confirmar la modalidad comercial antes de publicar.
+- Fiverr: el 2026-09-14 ya permite ver Gigs sin el desafio anterior, pero indica un maximo de cuatro ofertas y las cuatro plazas estan ocupadas. Se requiere decidir si conservar las ofertas linguisticas o revisar una sustitucion por desarrollo web. Ninguna fue pausada, eliminada ni cambiada. No se asume que pausar libere una plaza.
 
 ## Comprobaciones restantes
 

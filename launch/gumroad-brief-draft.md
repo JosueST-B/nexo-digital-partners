@@ -51,3 +51,7 @@ No presentar este recurso como una via para vender servicios prohibidos por la p
 - La demo de Nexo Brief del navegador integrado muestra el ejemplo ficticio guardado. La exportacion documentada `content.export()` no esta soportada en ese navegador; no produjo un archivo ni una captura adicional.
 - Se intento inspeccionar la pestaña existente de Nexo Brief en Chrome mediante sus APIs documentadas. La lectura de DOM no respondio y la captura posterior agoto el tiempo de la herramienta. No se comprobo una vista de impresion ni se obtuvo un PDF.
 - No se sustituyo una captura real por una ilustracion, ni se afirma que el PDF paginado este verificado. Para cerrar esos dos pendientes hace falta una captura exportable y un PDF generado desde la herramienta, o recuperar el control de esa vista del navegador.
+
+## Paso del titular identificado - 2026-09-14
+
+Se abrio `https://gumroad.com/settings/payments` en la sesion del navegador integrado. Antes de configurar cobros, Gumroad muestra un dialogo de ubicacion y requiere confirmar que se dispone de identificacion oficial con foto y de prueba de residencia o registro del negocio en el pais indicado. Ambas casillas estaban sin marcar y Save estaba deshabilitado. No se modifico el pais, no se marcaron declaraciones y no se introdujeron datos bancarios. El titular debe verificar esas afirmaciones y continuar personalmente. La modalidad comercial del producto sigue sin confirmacion.

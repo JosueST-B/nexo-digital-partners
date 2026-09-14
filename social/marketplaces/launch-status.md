@@ -1,4 +1,4 @@
-# Marketplaces - estado verificado 2026-09-12
+# Marketplaces - estado actualizado 2026-09-14
 
 ## Workana
 
@@ -23,7 +23,11 @@ Perfil existente: https://www.fiverr.com/sellers/josuep744/edit
 
 Acceso autenticado recuperado mediante la pestana existente de Brave. Se observaron cuatro ofertas activas: naming, transcreacion, localizacion web/app y traduccion. No se modificaron sus precios, textos ni estado.
 
-Al pulsar Create a new Gig, Fiverr mostro **It needs a human touch** y **Complete the task and we'll get you right back into Fiverr**. No se resolvio el desafio ni se intento eludirlo. La pestana queda para que el titular complete la verificacion. No se creo una oferta web; el texto propuesto permanece en `fiverr-web-draft.md`.
+El 2026-09-12, al pulsar Create a new Gig, Fiverr mostro una verificacion humana. No se resolvio ni eludio automaticamente.
+
+Revalidacion del 2026-09-14: la pestana existente permite acceder a Gigs. Muestra **You can create a maximum of 4 Gigs** y cuatro ofertas activas de naming, transcreacion, localizacion y traduccion. El bloqueo actual es el limite de ofertas, no un CAPTCHA visible. No se pulso otra vez Crear, ni se pauso, elimino o sustituyo ninguna oferta. Se solicito al titular decidir si conserva las cuatro o revisa una posible sustitucion por desarrollo web. No se asume que pausar una oferta libere una plaza; cualquier eliminacion requiere confirmacion especifica antes de ejecutarla.
+
+No se creo una oferta web; el texto propuesto permanece en `fiverr-web-draft.md`.
 
 ## Gumroad
 

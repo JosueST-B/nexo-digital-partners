@@ -14,6 +14,7 @@ Actualizado: 2026-09-13. El objetivo general sigue abierto; no se declara consol
 - Enlaces de ambas herramientas en el pie de la web; ultima regresion del enlace Nexo Catalog en doce idiomas por cuatro anchos aprobada.
 - Contacto de Facebook comprobado desde el perfil personal del titular: boton visible y redireccion observada hacia `#contacto`, con formulario presente. No equivale a una prueba anonima; detalle en `social/facebook/launch-status.md`.
 - Planes aclarados: kit manual de IA separado de integraciones automaticas y sistema limitado a un flujo acordado. Tres textos nuevos traducidos, cache corregida, 48 combinaciones responsive y seleccion de servicios verificadas. Ver `launch/offer-verification-2026-09-13.md`.
+- Localizacion completa del texto activo del sitio comercial: 131 fuentes auditadas en once idiomas adicionales, sin fallback ingles no revisado. Formulario y vista de proyecto probados en doce idiomas; 48 combinaciones responsive con todos los desplegables abiertos. Control de traducciones añadido antes del despliegue. Ver `launch/localization-verification-2026-09-13.md` para alcance y limites.
 
 ## Preparado, no publicado
 
@@ -30,7 +31,6 @@ Actualizado: 2026-09-13. El objetivo general sigue abierto; no se declara consol
 ## Comprobaciones restantes
 
 - Completar la comprobacion del PDF paginado de Nexo Brief y añadir una captura real adicional a su ficha de Gumroad.
-- Completar traducciones heredadas: se confirmo contenido ingles dentro de otras versiones (por ejemplo, etiquetas de planes en arabe). El diccionario copia valores de ingles antes de aplicar traducciones parciales. Las pruebas anteriores de claves presentes y responsive no prueban localizacion completa. Inventariar texto visible, completar traducciones y luego revisar contenido; no afirmar revision nativa ni certificacion linguistica.
 - Completar y verificar la nueva oferta de Fiverr y la entrega comercial de Gumroad cuando se resuelvan los pasos del titular.
 
 ## Limites comerciales

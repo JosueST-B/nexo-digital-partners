@@ -19,8 +19,10 @@ Verificado el 2026-09-13 sobre GitHub Pages.
 - Pedir IA selecciona `automation`; Pedir Sistema selecciona `dashboard`. No se enviaron solicitudes.
 - Idioma restaurado a español y override del viewport eliminado.
 
-## Hallazgo pendiente: traduccion parcial heredada
+## Hallazgo de traduccion parcial heredada
 
 La cobertura funcional anterior no demuestra traduccion completa. `translations.js` copia el diccionario ingles a otros idiomas y reemplaza solo parte de las claves. En la vista arabe se observaron precios, nombres de otros planes y listas en ingles, junto a las nuevas descripciones correctamente traducidas.
 
 El siguiente trabajo de localizacion debe inventariar el texto actualmente visible por seccion, completar los valores heredados que siguen en ingles y probar su contenido, no solo la existencia de una clave o el cambio de `lang` y `dir`. Evitar traducir nombres de marcas y terminos que deban conservarse. La revision editorial sigue pendiente; no se afirma revision nativa ni certificacion.
+
+Actualizacion posterior del mismo dia: este hallazgo se corrigio para el texto activo del sitio. La auditoria de 131 fuentes, las pruebas funcionales y la revision de coherencia estan documentadas en `launch/localization-verification-2026-09-13.md`. No se afirma revision nativa ni certificacion.

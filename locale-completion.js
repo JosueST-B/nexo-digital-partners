@@ -2,6 +2,20 @@
 (() => {
   const languages = ['de', 'fr', 'pt', 'it', 'ru', 'cs', 'zh', 'ja', 'he', 'ar'];
   const rows = [
+    ['Primero, define el alcance.', 'Zuerst den Umfang klären.', 'Définissez d’abord le périmètre.', 'Primeiro, defina o escopo.', 'Prima, definisci l’ambito.', 'Сначала определите объём работ.', 'Nejprve si ujasněte rozsah.', '先明确项目范围。', 'まず、プロジェクトの範囲を明確に。', 'קודם מגדירים את היקף הפרויקט.', 'حدّد نطاق المشروع أولاً.'],
+    ['Nexo Brief es un recurso gratuito en español e inglés para ordenar tu proyecto. La descarga en Gumroad admite aportación opcional.',
+      'Nexo Brief ist ein kostenloses Hilfsmittel auf Spanisch und Englisch zur Strukturierung Ihres Projekts. Beim Download auf Gumroad können Sie freiwillig einen Betrag zahlen.',
+      'Nexo Brief est une ressource gratuite en espagnol et en anglais pour structurer votre projet. Le téléchargement sur Gumroad permet une contribution facultative.',
+      'Nexo Brief é um recurso gratuito em espanhol e inglês para organizar seu projeto. O download no Gumroad permite uma contribuição opcional.',
+      'Nexo Brief è una risorsa gratuita in spagnolo e inglese per organizzare il tuo progetto. Il download su Gumroad prevede un contributo facoltativo.',
+      'Nexo Brief — бесплатный инструмент на испанском и английском для структурирования проекта. При скачивании на Gumroad можно внести добровольную плату.',
+      'Nexo Brief je bezplatný nástroj ve španělštině a angličtině pro uspořádání projektu. Při stažení na Gumroad můžete dobrovolně přispět.',
+      'Nexo Brief 是免费的西班牙语和英语项目规划工具。在 Gumroad 下载时可自愿付费。',
+      'Nexo Briefは、プロジェクトを整理するための無料ツールです。スペイン語と英語に対応しています。Gumroadでのダウンロード時に任意の金額で支援できます。',
+      'Nexo Brief הוא כלי חינמי בספרדית ובאנגלית לארגון הפרויקט. בהורדה מ־Gumroad אפשר לשלם סכום לבחירתכם, ללא חובה.',
+      'Nexo Brief أداة مجانية بالإسبانية والإنجليزية لتنظيم مشروعك. يمكنك دفع مبلغ اختياري عند التنزيل من Gumroad.'],
+    ['Abrir Nexo Brief', 'Nexo Brief öffnen', 'Ouvrir Nexo Brief', 'Abrir o Nexo Brief', 'Apri Nexo Brief', 'Открыть Nexo Brief', 'Otevřít Nexo Brief', '打开 Nexo Brief', 'Nexo Briefを開く', 'פתיחת Nexo Brief', 'فتح Nexo Brief'],
+    ['Descargar en Gumroad', 'Auf Gumroad herunterladen', 'Télécharger sur Gumroad', 'Baixar no Gumroad', 'Scarica su Gumroad', 'Скачать на Gumroad', 'Stáhnout na Gumroad', '在 Gumroad 下载', 'Gumroadでダウンロード', 'הורדה מ־Gumroad', 'التنزيل من Gumroad'],
     ['Navegacion principal', 'Hauptnavigation', 'Navigation principale', 'Navegação principal', 'Navigazione principale', 'Основная навигация', 'Hlavní navigace', '主导航', 'メインナビゲーション', 'ניווט ראשי', 'التنقل الرئيسي'],
     ['Nexo Digital Partners inicio', 'Nexo Digital Partners Startseite', 'Accueil Nexo Digital Partners', 'Início Nexo Digital Partners', 'Home Nexo Digital Partners', 'Nexo Digital Partners: главная', 'Nexo Digital Partners: úvod', 'Nexo Digital Partners 首页', 'Nexo Digital Partners ホーム', 'Nexo Digital Partners: דף הבית', 'Nexo Digital Partners: الرئيسية'],
     ['Soluciones', 'Lösungen', 'Solutions', 'Soluções', 'Soluzioni', 'Решения', 'Řešení', '解决方案', 'ソリューション', 'פתרונות', 'الحلول'],
@@ -368,6 +382,10 @@
     languages.forEach((language, index) => { window.NEXO_TRANSLATIONS[language][key] = values[index]; });
   }
   Object.assign(window.NEXO_TRANSLATIONS.en, {
+    'Primero, define el alcance.': 'First, define the scope.',
+    'Nexo Brief es un recurso gratuito en español e inglés para ordenar tu proyecto. La descarga en Gumroad admite aportación opcional.': 'Nexo Brief is a free resource in Spanish and English to structure your project. The Gumroad download allows an optional contribution.',
+    'Abrir Nexo Brief': 'Open Nexo Brief',
+    'Descargar en Gumroad': 'Download on Gumroad',
     'Navegacion principal': 'Main navigation',
     'Nexo Digital Partners inicio': 'Nexo Digital Partners home'
   });

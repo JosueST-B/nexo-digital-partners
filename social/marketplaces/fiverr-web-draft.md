@@ -1,10 +1,16 @@
 # Fiverr - service draft
 
-Status 2026-09-14: Overview filled in the Fiverr creation form, not yet saved or published. Saving requires the license declaration and Terms of Service acceptance; the checkbox remains unchecked pending explicit confirmation. The user authorized deleting the transcreation gig and completed its browser confirmation; Active 3 and the remaining naming, localization and translation listings were verified. Do not invent reviews, certifications, years of experience or an agency team.
+Status 2026-09-15: user approved the pending conditions and the existing editor had advanced to Pricing. Overview, Pricing, Description/FAQ and Requirements are saved; the wizard reached Gallery. Not published. Editor: https://www.fiverr.com/users/josuep744/manage_gigs/build-a-responsive-landing-page-for-your-professional-service/edit?wizard=1 . The approved transcreation gig was removed; naming, localization and translation were preserved.
 
 Selected: Programming & Tech > Website Development > Custom Websites; Landing Page; HTML & CSS and JavaScript; FAQ and Landing page features. Tags: landing page, html css, responsive website, web development, business website.
 
-Proposed package awaiting user confirmation: USD 150, 7 days, one page with up to 5 sections, one language, source files and 2 revisions. No package has been published.
+Approved and saved package: USD 150, 7 days, one page with up to 5 sections, one language, source files and 2 revisions. One package only; no extras or rush delivery. Content upload and social media icons included. Hosting setup, opt-in backend, payments, CMS and ongoing maintenance excluded. No package has been published.
+
+Current blocker: image file chooser did not open through either Browse or the actual image input. Both documented attempts timed out; no upload was confirmed. The inspected real screenshot is `social/marketplaces/nexo-web-workana.png` (own Nexo project, no face or contact details in the image). The user can upload it in Gallery > Images. No generated replacement was passed off as a screenshot.
+
+Saved description explains the one-page scope, approved client content, source-file delivery, 2 revision rounds and exclusions; no sales or ranking guarantees. Three saved FAQs cover required materials, hosting/backend exclusions and revision limits. Four required free-text questions request the service/audience/action; up to five sections, language and final copy; brand assets and permission to use them; and public contact destinations plus source-file delivery. No credentials or sensitive client data requested.
+
+The original draft wording below is retained for reference; the saved scope above is authoritative.
 
 ## Proposed title
 

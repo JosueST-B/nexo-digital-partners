@@ -1,6 +1,6 @@
 # Nexo - lanzamiento comercial
 
-Actualizado: 2026-09-14. El objetivo general sigue abierto; no se declara consolidacion comercial ni ventas sin evidencia.
+Actualizado: 2026-09-15. El objetivo general sigue abierto; no se declara consolidacion comercial ni ventas sin evidencia.
 
 ## Publico y comprobado
 
@@ -18,14 +18,14 @@ Actualizado: 2026-09-14. El objetivo general sigue abierto; no se declara consol
 
 ## Preparado, no publicado
 
-- Fiverr: primera pantalla de la oferta web completada, todavia sin guardar por la declaracion obligatoria de licencias y Terminos de Servicio. Se confirmo la eliminacion de la oferta de transcreacion autorizada por el titular; quedan tres ofertas activas. Detalle en `social/marketplaces/fiverr-web-draft.md`.
+- Fiverr: Overview, paquete, descripcion, tres FAQ y cuatro requisitos guardados. El asistente de creacion avanzo a Gallery. Todavia no publicado: falta subir la captura real y completar Publish. Las tres ofertas anteriores restantes se conservaron. Detalle en `social/marketplaces/fiverr-web-draft.md`.
 - Cuatro fichas comerciales con entregables y limites en `launch/service-offers.md`. Publicaciones de portafolio 02-06 en `social/content/publication-plan.md` son borradores, no una programacion activa.
 - Investigacion de GitHub, Hugging Face, Docling y referencias de empresas en `launch/research.md`. Papa Parse se usa en la demo CSV. OCR/Docling sigue siendo una idea investigada, no una capacidad implementada ni un compromiso de entrega.
 
 ## Requiere al titular
 
 - Gumroad: el titular completo la configuracion y la confirmacion de Stripe. Ya no se muestran los avisos anteriores de cobros o verificacion pendiente. No equivale a una garantia de aprobacion de revisiones futuras ni de liquidaciones.
-- Fiverr: confirmar la declaracion de licencias necesarias y aceptar los Terminos de Servicio para guardar. Precio y plazo propuestos (USD 150, 7 dias, una pagina, hasta 5 secciones, un idioma, 2 revisiones) pendientes de respuesta del titular antes de publicar.
+- Fiverr: el titular aprobo las condiciones y el formulario ya habia avanzado a Pricing. Paquete guardado por USD 150, 7 dias, una pagina, hasta 5 secciones, un idioma y 2 revisiones. La subida de imagen no abre el selector mediante el control disponible: requiere cargar la captura indicada en Gallery > Images para continuar. No se confirmo ninguna subida.
 
 ## Comprobaciones restantes
 

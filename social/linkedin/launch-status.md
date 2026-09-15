@@ -46,3 +46,5 @@ Nota: esta transcripcion ASCII conserva el contenido; la publicacion original in
 ## Continuidad
 
 Evitar duplicar la presentacion. Las siguientes piezas son casos concretos, con capturas reales y sin atribuir ventas, clientes ni resultados que no esten documentados.
+
+Actualizacion 2026-09-15: Nexo Brief anunciado como recurso gratuito con aportacion opcional, desde la pagina de Nexo y con visibilidad global. Texto y enlace de Gumroad, sin subir fotos nuevas. Confirmacion y publicacion resultante verificadas: https://www.linkedin.com/feed/update/urn:li:share:7505708559339384833/ . Transcripcion y limites en `brief-post-2026-09-15.md`.

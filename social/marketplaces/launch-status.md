@@ -1,4 +1,4 @@
-# Marketplaces - estado actualizado 2026-09-14
+# Marketplaces - estado actualizado 2026-09-15
 
 ## Workana
 
@@ -28,6 +28,8 @@ El 2026-09-12, al pulsar Create a new Gig, Fiverr mostro una verificacion humana
 Revalidacion del 2026-09-14: la pestana existente permite acceder a Gigs. Muestra **You can create a maximum of 4 Gigs** y cuatro ofertas activas de naming, transcreacion, localizacion y traduccion. El bloqueo actual es el limite de ofertas, no un CAPTCHA visible. No se pulso otra vez Crear, ni se pauso, elimino o sustituyo ninguna oferta. Se solicito al titular decidir si conserva las cuatro o revisa una posible sustitucion por desarrollo web. No se asume que pausar una oferta libere una plaza; cualquier eliminacion requiere confirmacion especifica antes de ejecutarla.
 
 Actualizacion posterior del 2026-09-14: el titular autorizo retirar solamente la oferta de transcreacion y completo el aviso de borrado que no respondia al control automatico. Se verifico Active 3 y ausencia de esa oferta. Overview de la nueva landing completado (Custom Websites, Landing Page, HTML/CSS y JavaScript), pero Save exige aceptar Terminos de Servicio y declarar licencias. Casilla sin marcar; no se afirma que el borrador este guardado. Precio/plazo propuestos pendientes de respuesta. Ver `fiverr-web-draft.md`.
+
+Actualizacion de Fiverr, 2026-09-15: el titular aprobo las condiciones y el editor avanzo a Pricing. Overview, paquete de USD 150 / 7 dias / 2 revisiones, descripcion, tres FAQ y cuatro requisitos quedaron guardados. Gallery no tiene una subida confirmada. Posteriormente el titular pidio dejar las fotos para el final: imagenes y publicacion de Fiverr quedan aplazadas, sin bloquear la difusion de Nexo Brief. El borrador no esta publicado. `fiverr-web-draft.md` contiene el alcance guardado vigente.
 
 ## Gumroad
 

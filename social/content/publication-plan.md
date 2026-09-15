@@ -6,6 +6,8 @@ Actualizacion 2026-09-13: se publico una pieza adicional de demostracion sobre N
 
 ## Criterio editorial
 
+Actualizacion 2026-09-15: anuncio de Nexo Brief publicado en LinkedIn con texto y vista previa nativa de Gumroad. Detalle en `../linkedin/brief-post-2026-09-15.md`. El titular pospuso las fotos y el cierre de Fiverr para el final; se continua con acciones que no requieren nuevas imagenes. Las piezas 02-06 siguen pendientes.
+
 - No mostrar el rostro del fundador durante esta etapa.
 - Usar proyectos reales, interfaces y activos de marca como evidencia.
 - Llamar "proyecto", "prototipo" o "caso de portafolio" a cada trabajo mientras no exista autorizacion para presentarlo como cliente.

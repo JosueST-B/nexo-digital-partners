@@ -4,6 +4,8 @@ Actualizado: 2026-09-15. El objetivo general sigue abierto; no se declara consol
 
 ## Publico y comprobado
 
+- LinkedIn, 2026-09-15: Nexo Brief anunciado como descarga gratuita con aportacion opcional. Publicacion global y vista previa de Gumroad verificadas: https://www.linkedin.com/feed/update/urn:li:share:7505708559339384833/ . Texto y limites en `social/linkedin/brief-post-2026-09-15.md`. Sin nuevas fotos ni anuncios pagados.
+
 - Sitio: https://josuest-b.github.io/nexo-digital-partners/ . Rediseño propio, monograma sin rostro, capturas reales, servicios y contacto. Interfaz en doce idiomas; pruebas funcionales y responsive documentadas. Los cambios se publican en `main` y `gh-pages`.
 - LinkedIn: logo, portada, doce especialidades y descripciones ES/EN. Presentacion publicada: https://www.linkedin.com/feed/update/urn:li:share:7504194026607378432/ . Evidencia en `social/linkedin/launch-status.md`.
 - Facebook: portada, logo, bio y categorias guardados; presentacion fijada en Destacados. Boton Contactarnos configurado hacia el sitio. Segunda publicacion sobre Nexo Catalog visible con audiencia publica y enlace a la demo. Evidencia en `social/facebook/launch-status.md` y `social/facebook/catalog-post-2026-09-13.md`.
@@ -25,7 +27,7 @@ Actualizado: 2026-09-15. El objetivo general sigue abierto; no se declara consol
 ## Requiere al titular
 
 - Gumroad: el titular completo la configuracion y la confirmacion de Stripe. Ya no se muestran los avisos anteriores de cobros o verificacion pendiente. No equivale a una garantia de aprobacion de revisiones futuras ni de liquidaciones.
-- Fiverr: el titular aprobo las condiciones y el formulario ya habia avanzado a Pricing. Paquete guardado por USD 150, 7 dias, una pagina, hasta 5 secciones, un idioma y 2 revisiones. La subida de imagen no abre el selector mediante el control disponible: requiere cargar la captura indicada en Gallery > Images para continuar. No se confirmo ninguna subida.
+- Fiverr: el titular aprobo las condiciones y el formulario avanzo a Gallery con el paquete guardado por USD 150, 7 dias, una pagina, hasta 5 secciones, un idioma y 2 revisiones. No se confirmo ninguna subida de imagen. Por decision posterior del titular, fotos y publicacion quedan para el final; no se requiere que cargue imagenes ahora ni se bloquea el trabajo restante por ese paso.
 
 ## Comprobaciones restantes
 

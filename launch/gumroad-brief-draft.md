@@ -2,7 +2,7 @@
 
 Estado actual, 2026-09-14: PUBLICADO. URL: https://pugmaster0.gumroad.com/l/nexo-brief . El titular completo cobros y la confirmacion de Stripe y autorizo expresamente la modalidad gratis con aportacion opcional. Se pulso Publish and continue; el editor paso a Share con boton Unpublish. Ficha publica comprobada: USD 0+, marca Nexo, portada, descripcion, resumen, 1 MB y enlace al checkout. No se hizo una compra de prueba ni se verifico la entrega posterior a una compra. Las secciones fechadas siguientes conservan el historial previo.
 
-Content mantiene el ZIP nexo-brief-v1 de 1.0 MB. No se modificaron datos bancarios ni se incluyeron datos privados en este registro. La captura real adicional y la comprobacion del PDF paginado siguen pendientes. Gumroad indica que Discover tiene requisitos adicionales; no se afirma que el producto ya aparezca alli. Share indica que no hay secciones del perfil configuradas para mostrarlo; el enlace directo si funciona.
+Content mantiene el ZIP nexo-brief-v1 de 1.0 MB. No se modificaron datos bancarios ni se incluyeron datos privados en este registro. La captura real adicional y la comprobacion del PDF paginado siguen pendientes. Gumroad indica que Discover tiene requisitos adicionales; no se afirma que el producto ya aparezca alli. Aunque Share indicaba que no habia secciones configuradas, la vista publica del perfil muestra automaticamente Nexo Brief a USD 0+ y su enlace abre la ficha correcta. No hizo falta crear otra seccion. El pie de la web de Nexo incorpora un enlace al perfil de Gumroad sin reemplazar las demos.
 
 ## Titulo
 

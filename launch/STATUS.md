@@ -4,6 +4,8 @@ Actualizado: 2026-09-15. El objetivo general sigue abierto; no se declara consol
 
 ## Publico y comprobado
 
+- Web, 2026-09-15: acceso visible a Nexo Brief junto al contacto, con apertura en otra pestana y enlace a su descarga gratuita en Gumroad. Cuatro textos nuevos en doce idiomas; 48 combinaciones de idioma/ancho comprobadas y despliegue publico verificado. Sin cambios al ZIP, precios ni envio de solicitudes. Detalle en `launch/brief-contact-verification-2026-09-15.md`.
+
 - LinkedIn, 2026-09-15: Nexo Brief anunciado como descarga gratuita con aportacion opcional. Publicacion global y vista previa de Gumroad verificadas: https://www.linkedin.com/feed/update/urn:li:share:7505708559339384833/ . Texto y limites en `social/linkedin/brief-post-2026-09-15.md`. Sin nuevas fotos ni anuncios pagados.
 
 - Sitio: https://josuest-b.github.io/nexo-digital-partners/ . Rediseño propio, monograma sin rostro, capturas reales, servicios y contacto. Interfaz en doce idiomas; pruebas funcionales y responsive documentadas. Los cambios se publican en `main` y `gh-pages`.

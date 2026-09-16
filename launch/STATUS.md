@@ -4,6 +4,8 @@ Actualizado: 2026-09-16. El objetivo general sigue abierto; no se declara consol
 
 ## Publico y comprobado
 
+- GitHub, 2026-09-16: README renovado con captura real, herramientas operativas, servicios delimitados, demos, contacto y comandos de comprobacion. Renderizado publico e imagen 1440 x 960 verificados. El despliegue ejecuta ahora las pruebas de Nexo Brief y Nexo Catalog, ocho casos del verificador de paquetes y comparacion exacta de los nueve archivos del ZIP con su fuente. Paso y despliegue aprobados en https://github.com/JosueST-B/nexo-digital-partners/actions/runs/35096775824 (codigo `0d4588f`). Saltos LF fijados para los textos del producto en Windows/Linux. No se modifico el ZIP de Gumroad ni se verifico una compra con estas pruebas.
+
 - Facebook, 2026-09-16: Nexo Brief anunciado gratis con aportacion opcional, desde Nexo y con audiencia publica. Texto, autor, etiqueta de IA y enlace a Gumroad verificados en el permalink. Sin fotos nuevas, anuncios pagados ni mensajes. Evidencia en `social/facebook/brief-post-2026-09-16.md`.
 
 - Web, 2026-09-15: acceso visible a Nexo Brief junto al contacto, con apertura en otra pestana y enlace a su descarga gratuita en Gumroad. Cuatro textos nuevos en doce idiomas; 48 combinaciones de idioma/ancho comprobadas y despliegue publico verificado. Sin cambios al ZIP, precios ni envio de solicitudes. Detalle en `launch/brief-contact-verification-2026-09-15.md`.

@@ -6,6 +6,8 @@ Actualizacion 2026-09-13: se publico una pieza adicional de demostracion sobre N
 
 ## Criterio editorial
 
+Actualizacion 2026-09-16: Nexo Brief anunciado tambien en Facebook mediante texto y vista previa del enlace de Gumroad, sin fotos nuevas. Publicacion y audiencia publica verificadas; transcripcion en `../facebook/brief-post-2026-09-16.md`. No volver a publicar este anuncio como si siguiera pendiente. Las piezas 02-06 de portafolio siguen siendo borradores.
+
 Actualizacion 2026-09-15: anuncio de Nexo Brief publicado en LinkedIn con texto y vista previa nativa de Gumroad. Detalle en `../linkedin/brief-post-2026-09-15.md`. El titular pospuso las fotos y el cierre de Fiverr para el final; se continua con acciones que no requieren nuevas imagenes. Las piezas 02-06 siguen pendientes.
 
 - No mostrar el rostro del fundador durante esta etapa.

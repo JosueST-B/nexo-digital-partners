@@ -46,3 +46,9 @@ https://josuest-b.github.io/nexo-digital-partners/
 - No se guardan parametros de seguimiento de Facebook en esta evidencia.
 
 No hay seguidores, consultas ni ventas nuevas verificadas.
+
+## Nexo Brief publicado el 2026-09-16
+
+Anuncio del recurso gratuito con aportacion opcional publicado como Nexo Digital Partners y audiencia publica. Enlace permanente y texto comprobados; vista previa nativa de Gumroad y etiqueta de IA activada por la portada conceptual. Sin fotos nuevas, anuncios pagados, envios a grupos ni mensajes. Transcripcion y evidencia en `brief-post-2026-09-16.md`.
+
+https://www.facebook.com/permalink.php?story_fbid=pfbid0XztbHmD6yKqN9bxWYPMZWwzXCVjAudP6WZ59n4bHR4R6TjSyvfPAU1jCCCGiCcc9l&id=61591254974802

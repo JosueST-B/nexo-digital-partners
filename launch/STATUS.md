@@ -1,8 +1,10 @@
 # Nexo - lanzamiento comercial
 
-Actualizado: 2026-09-15. El objetivo general sigue abierto; no se declara consolidacion comercial ni ventas sin evidencia.
+Actualizado: 2026-09-16. El objetivo general sigue abierto; no se declara consolidacion comercial ni ventas sin evidencia.
 
 ## Publico y comprobado
+
+- Facebook, 2026-09-16: Nexo Brief anunciado gratis con aportacion opcional, desde Nexo y con audiencia publica. Texto, autor, etiqueta de IA y enlace a Gumroad verificados en el permalink. Sin fotos nuevas, anuncios pagados ni mensajes. Evidencia en `social/facebook/brief-post-2026-09-16.md`.
 
 - Web, 2026-09-15: acceso visible a Nexo Brief junto al contacto, con apertura en otra pestana y enlace a su descarga gratuita en Gumroad. Cuatro textos nuevos en doce idiomas; 48 combinaciones de idioma/ancho comprobadas y despliegue publico verificado. Sin cambios al ZIP, precios ni envio de solicitudes. Detalle en `launch/brief-contact-verification-2026-09-15.md`.
 

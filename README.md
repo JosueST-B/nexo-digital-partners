@@ -1,45 +1,80 @@
-# Nexo Digital Partners Website
+# Nexo Digital Partners
 
-Pagina estatica corporativa para vender productos digitales, sistemas de captacion, webs profesionales, automatizacion, dashboards, micro-apps, IA aplicada, portales educativos y catalogos digitales.
+Webs profesionales, herramientas operativas y automatizacion para profesionales y pequenos negocios. Definimos el problema, acordamos el alcance y construimos una primera entrega que se pueda probar.
 
-## Abrir localmente
+[Ver el sitio](https://josuest-b.github.io/nexo-digital-partners/) · [Solicitar una propuesta](https://josuest-b.github.io/nexo-digital-partners/#contacto) · [Recursos en Gumroad](https://pugmaster0.gumroad.com/)
 
-Abre `index.html` en el navegador.
+![Captura real del sitio de Nexo Digital Partners](social/marketplaces/nexo-web-workana.png)
 
-## Archivos
+Proyecto propio. La captura muestra la web; el monograma de su cabecera es una ilustracion de marca, no una fotografia de nuestras instalaciones. [Procedencia de los activos](assets/brand/ASSETS.md).
 
-- `index.html`: estructura y contenido de la pagina
-- `styles.css`: identidad editorial clara, responsive, sin capas de estilos heredadas
-- `script.js`: menu accesible, filtros, vistas ampliadas y solicitud por WhatsApp/correo sin envio automatico
-- `translations.js`: selector multilingue con ES, EN, DE, FR, PT, IT, RU, CS, ZH, JA, HE y AR
-- `studio-copy.js`: textos de la nueva interfaz y correcciones de espanol
-- `assets/`: identidad de marca generada, capturas reales de proyectos y Lucide con licencia
-- `lead-tracker-template.csv`: plantilla simple para seguimiento de contactos y cotizaciones
-- `social/facebook/`: kit de lanzamiento para Facebook con portada, perfil, arte del primer post y textos de publicacion
-- `social/linkedin/launch-status.md`: estado verificado y enlace a la primera publicacion
+## Herramientas que puedes probar
 
-## Verificacion
+| Herramienta | Para que sirve | Probar y revisar |
+| --- | --- | --- |
+| Nexo Brief | Ordenar objetivo, publico, alcance y entregables. Interfaz ES/EN, guardado manual, importacion JSON y exportaciones JSON/Markdown. | [Abrir](https://josuest-b.github.io/nexo-digital-partners/products/brief-kit/) / [Descarga gratuita con aportacion opcional](https://pugmaster0.gumroad.com/l/nexo-brief) / [Codigo y guia](products/brief-kit/) |
+| Nexo Catalog | Revisar un CSV de productos: columnas asignables, precios, existencias, SKU duplicados e informes exportables. Interfaz ES/EN. | [Abrir](https://josuest-b.github.io/nexo-digital-partners/products/catalog-check/) / [Codigo y guia](products/catalog-check/) |
 
-Con Node.js, Playwright y Microsoft Edge disponibles:
+Ambas herramientas trabajan con datos locales en el navegador. No envian el contenido de las fichas o CSV a Nexo. La version alojada genera las solicitudes web normales al proveedor de alojamiento. No introduzcas contrasenas, datos clinicos ni informacion sensible; las exportaciones no estan cifradas.
+
+Nexo Catalog usa Papa Parse, no IA ni OCR, y no esta integrado con un ERP. Nexo Brief no incluye consultoria ni desarrollo a medida. Su opcion de impresion depende del navegador; la salida PDF paginada sigue pendiente de comprobacion.
+
+## Servicios con alcance definido
+
+- Landing pages y webs profesionales para presentar una oferta y recibir consultas.
+- Formularios, catalogos, dashboards y microaplicaciones para un flujo concreto.
+- Arquitectura de contenido y experiencias multilingues, con idiomas y revision acordados.
+- Kits manuales de trabajo con IA; integraciones y ejecucion automatica se cotizan aparte.
+
+Los precios de entrada, ejemplos y contacto estan en el [sitio comercial](https://josuest-b.github.io/nexo-digital-partners/#planes). Dominio, alojamiento, servicios externos y mantenimiento se acuerdan por separado. [Entregables, exclusiones y criterios de aceptacion](launch/service-offers.md).
+
+Los trabajos del portafolio son proyectos propios o prototipos identificados como tales. No se presentan como encargos de clientes, testimonios ni pruebas de ventas. No garantizamos trafico, posicionamiento o resultados comerciales. Las ideas investigadas en [GitHub y Hugging Face](launch/research.md) se distinguen de las funciones implementadas.
+
+## Sitio comercial
+
+HTML, CSS y JavaScript estaticos, sin backend de captacion ni compilacion. El formulario prepara un mensaje para que el visitante lo revise y decida enviarlo por WhatsApp o correo; no envia la solicitud automaticamente.
+
+Selector en doce idiomas: ES, EN, DE, FR, PT, IT, RU, CS, ZH, JA, HE y AR. Hebreo y arabe usan RTL. Los doce idiomas pertenecen al sitio comercial: las dos herramientas tienen interfaz ES/EN.
+
+## Ejecutar y comprobar
+
+Abre `index.html` para el sitio, o `products/brief-kit/index.html` y `products/catalog-check/index.html` para las herramientas. Conserva sus archivos y carpetas de recursos.
+
+Las comprobaciones siguientes usan Node.js y Python 3, sin instalar paquetes adicionales:
 
 ```sh
-node scripts/verify-site.cjs
+python scripts/audit-localization.py
+node scripts/test-offer-copy.cjs
+node scripts/test-brief.cjs
+node scripts/test-catalog.cjs
+python -B scripts/test_brief_package.py
+python scripts/check_brief_package.py
 ```
 
-Prueba 12 idiomas a 1440, 768, 390 y 320 px, filtros, modal de proyecto y foco, seleccion de servicio, enlaces de solicitud codificados, ausencia de envio automatico, persistencia e indisponibilidad de localStorage. Guarda capturas de escritorio, movil, proyectos y contacto en `verification/` (no versionadas).
+La auditoria de traducciones acepta `--node /ruta/al/ejecutable` cuando Node no esta en PATH. El control del ZIP compara todos sus archivos con `products/brief-kit/`, rechaza archivos faltantes, inesperados, duplicados o diferentes y no extrae ni ejecuta el contenido.
 
-La variable `NEXO_TEST_URL` permite ejecutar la misma verificacion contra GitHub Pages. Sin ella se abre `index.html` localmente; no requiere servidor.
+Estas pruebas cubren reglas de datos, traducciones, recursos y coherencia del paquete; no sustituyen una revision visual o una prueba de compra. Las comprobaciones de navegador y sus limites estan en [el registro de lanzamiento](launch/STATUS.md), incluyendo [contacto y recurso gratuito](launch/brief-contact-verification-2026-09-15.md) y [revision CSV](launch/catalog-verification-2026-09-13.md).
 
-`scripts/capture-portfolio.cjs` regenera las capturas desde los proyectos vecinos y los sitios publicos. Requiere que existan las carpetas locales indicadas en el script. Las versiones locales no se presentan como testimonios ni aplicaciones listas para produccion.
+Para regenerar el ZIP, `scripts/package-brief.cjs` requiere JSZip. Su resultado es `products/nexo-brief-v1.zip`; despues se debe ejecutar el control del paquete. Actualizar este repositorio no reemplaza automaticamente el archivo ya cargado en Gumroad.
 
-## Posicionamiento
+## Publicacion y estructura
 
-La pagina evita vender "paginas web baratas" y presenta la oferta como una agencia de estrategia, productos digitales, automatizacion e IA para varios nichos: salud, psicologia, educacion, consultoria, comercio, creadores, servicios profesionales y startups pequenas.
+El [workflow de GitHub Pages](.github/workflows/pages.yml) ejecuta los controles antes de publicar `main`. Si falla uno, no se despliega esa revision.
 
-## Inspiracion estrategica
+| Ruta | Contenido |
+| --- | --- |
+| `index.html`, `styles.css`, `script.js` | Sitio comercial y formulario de solicitud |
+| `translations.js`, `studio-copy.js`, `locale-completion.js` | Catalogos y textos activos de los doce idiomas |
+| `products/` | Herramientas, guias y paquete descargable |
+| `assets/` | Identidad, capturas propias y bibliotecas locales |
+| `scripts/` | Controles y utilidades de empaquetado |
+| `launch/` | Alcances, evidencia de pruebas y estado real del lanzamiento |
+| `social/` | Publicaciones, enlaces verificados y borradores identificados |
 
-La estructura se inspiro en patrones de agencias corporativas de estrategia, diseno y tecnologia: servicios por capacidades, casos de trabajo, modelos de contratacion, foco en crecimiento/operacion y lenguaje de productos digitales.
+Los scripts historicos `verify-site.cjs` y `capture-portfolio.cjs` requieren configuracion de navegador y, para algunas capturas, proyectos vecinos. No forman parte del despliegue automatico ni demuestran por si solos el estado actual del sitio.
 
-## Idiomas
+## Activos y componentes
 
-Incluye selector de idioma, persistencia en el navegador y soporte RTL para hebreo y arabe.
+Lucide conserva su [licencia incluida](assets/vendor/lucide-LICENSE), al igual que [Papa Parse](products/catalog-check/vendor/LICENSE). Las condiciones de uso de Nexo Brief estan en [su guia](products/brief-kit/README.md). No se ha aplicado una licencia general de codigo abierto a la marca ni al conjunto del repositorio.
+
+[LinkedIn](https://www.linkedin.com/company/nexo-digital-partners-ec/) · [Facebook](https://www.facebook.com/profile.php?id=61591254974802)

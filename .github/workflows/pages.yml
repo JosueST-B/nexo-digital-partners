@@ -29,6 +29,13 @@ jobs:
           python3 scripts/audit-localization.py
           node scripts/test-offer-copy.cjs
 
+      - name: Check product logic and downloadable package
+        run: |
+          node scripts/test-brief.cjs
+          node scripts/test-catalog.cjs
+          python3 -B scripts/test_brief_package.py
+          python3 scripts/check_brief_package.py
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 

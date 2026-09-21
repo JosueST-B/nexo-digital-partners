@@ -37,6 +37,8 @@ Actualizado: 2026-09-16. El objetivo general sigue abierto; no se declara consol
 
 ## Comprobaciones restantes
 
+- 2026-09-21: Nexo Brief v1.0.2 incorpora un enlace ES/EN a contacto, en otra pestana y sin datos del formulario en la URL. Probado localmente a 320 y 1440 px en ambos idiomas: sin desbordamiento ni solapamiento del pie; los campos se conservan al cambiar idioma. Test de Brief aprobado y ZIP de GitHub reconstruido con sus 9 archivos coincidentes. La copia descargable de Gumroad sigue en la version anterior: pendiente reemplazar el archivo alli y verificar la entrega. No anunciar esta mejora como disponible en la descarga de Gumroad todavia.
+
 - Completar la comprobacion del PDF paginado de Nexo Brief y añadir una captura real adicional a su ficha de Gumroad. Exportacion no soportada en el navegador integrado; lectura y captura de la pestaña existente de Chrome no respondieron en la revalidacion del 2026-09-13. No se obtuvo un archivo ni se declaro esa prueba aprobada. Detalle en `launch/gumroad-brief-draft.md`.
 - Completar y verificar la nueva oferta de Fiverr y la entrega comercial de Gumroad cuando se resuelvan los pasos del titular.
 

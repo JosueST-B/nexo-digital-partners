@@ -1,5 +1,19 @@
 # LinkedIn - Nexo Digital Partners
 
+## Pagina de servicios publicada: 2026-09-21
+
+- URL: https://www.linkedin.com/services/page/68256b347374454192
+- Servicios guardados y visibles: Desarrollo web, Diseño web, Desarrollo de software personalizado, Diseño de experiencia de usuario (UX).
+- Modalidad En remoto y Consultar precios verificadas en la ficha. No se publico tarifa por hora ni se activo Premium.
+- LinkedIn informa que los mensajes permanecen habilitados mientras los servicios esten publicados. La pagina fue creada para recibir solicitudes; no se enviaron invitaciones ni mensajes a terceros.
+- Descripcion de 440 caracteres publicada, sin clientes, años de experiencia ni resultados inventados:
+
+Diseñamos y desarrollamos webs profesionales, landing pages, formularios, dashboards y microaplicaciones para profesionales y pequeños negocios. Trabajamos a distancia y definimos alcance, entregables y presupuesto antes de comenzar. Nuestro portafolio incluye proyectos propios y prototipos, identificados como tales. También preparamos experiencias multilingües y flujos de trabajo asistidos por IA según las necesidades de cada proyecto.
+
+- Pendiente: añadir enlaces de muestras de trabajo en Contenido multimedia. No se requieren fotos personales.
+
+## Perfil de empresa
+
 Verificado el 11 de septiembre de 2026.
 
 - Pagina: https://www.linkedin.com/company/nexo-digital-partners-ec/

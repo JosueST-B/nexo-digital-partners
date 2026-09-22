@@ -1,5 +1,11 @@
 # Fiverr - service draft
 
+## Current status | 2026-09-22
+
+Published after the user authorized resuming images and publication. Two new promotional designs and the existing real Nexo screenshot were uploaded and saved. Fiverr confirmed the gig is open for business. The listing shows USD 150, 7 days, 2 revisions and the approved scope. [Public listing](https://www.fiverr.com/josuep744/build-a-responsive-landing-page-for-your-professional-service). Asset provenance, prompts and verification: [gallery record](fiverr-gallery-2026-09-22.md). Older draft/deferred statements below are historical, not the current publication status.
+
+## Historical draft
+
 Status 2026-09-15: user approved the pending conditions and the existing editor had advanced to Pricing. Overview, Pricing, Description/FAQ and Requirements are saved; the wizard reached Gallery. Not published. Editor: https://www.fiverr.com/users/josuep744/manage_gigs/build-a-responsive-landing-page-for-your-professional-service/edit?wizard=1 . The approved transcreation gig was removed; naming, localization and translation were preserved.
 
 Selected: Programming & Tech > Website Development > Custom Websites; Landing Page; HTML & CSS and JavaScript; FAQ and Landing page features. Tags: landing page, html css, responsive website, web development, business website.

@@ -2,6 +2,10 @@
 
 Actualizado: 2026-09-22. El objetivo general sigue abierto; no se declara consolidacion comercial ni ventas sin evidencia.
 
+## Fiverr publicado | 2026-09-22
+
+El titular retomo y autorizo crear/subir imagenes. Se crearon dos piezas promocionales sin rostro, se subieron junto a una captura real propia y se guardo la galeria. Fiverr confirmo la publicacion; ficha abierta con USD 150, 7 dias y 2 revisiones. [Servicio publicado](https://www.fiverr.com/josuep744/build-a-responsive-landing-page-for-your-professional-service). Evidencia y prompts: `social/marketplaces/fiverr-gallery-2026-09-22.md`. Las referencias posteriores a Fiverr aplazado describen el estado anterior a esta autorizacion; ya no son pendientes actuales. No se modifico la foto preexistente del perfil, ni se contrataron anuncios. No hay ventas verificadas por esta publicacion.
+
 ## Cierre de preparacion comercial | 2026-09-22
 
 - Oferta Landing Express publicada y verificada en Facebook, con alcance, exclusiones y precio desde USD 150. Audiencia publica, sin anuncios. Enlace y texto en `social/facebook/landing-offer-2026-09-22.md`.

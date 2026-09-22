@@ -10,6 +10,8 @@ Proyecto propio. La captura muestra la web; el monograma de su cabecera es una i
 
 ## Herramientas que puedes probar
 
+[Casos de proyecto ES / EN: problema, solucion, demo y limites](launch/portfolio-cases.md).
+
 | Herramienta | Para que sirve | Probar y revisar |
 | --- | --- | --- |
 | Nexo Brief | Ordenar objetivo, publico, alcance y entregables. Interfaz ES/EN, guardado manual, importacion JSON y exportaciones JSON/Markdown. | [Abrir](https://josuest-b.github.io/nexo-digital-partners/products/brief-kit/) / [Descarga gratuita con aportacion opcional](https://pugmaster0.gumroad.com/l/nexo-brief) / [Codigo y guia](products/brief-kit/) |

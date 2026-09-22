@@ -1,6 +1,14 @@
 # Nexo - lanzamiento comercial
 
-Actualizado: 2026-09-16. El objetivo general sigue abierto; no se declara consolidacion comercial ni ventas sin evidencia.
+Actualizado: 2026-09-22. El objetivo general sigue abierto; no se declara consolidacion comercial ni ventas sin evidencia.
+
+## Cierre de preparacion comercial | 2026-09-22
+
+- Oferta Landing Express publicada y verificada en Facebook, con alcance, exclusiones y precio desde USD 150. Audiencia publica, sin anuncios. Enlace y texto en `social/facebook/landing-offer-2026-09-22.md`.
+- Dossier ES/EN con tres casos propios (Nexo web, Brief y Catalog): problema, solucion, demo y limites. Enlazado desde el portafolio y README: `launch/portfolio-cases.md`. No son clientes ni testimonios.
+- Kit operativo privado con consulta inicial, propuesta, cambios, entrega y mantenimiento separado. Registro comercial y tres oportunidades adicionales investigadas, sin mensajes nuevos ni compromisos economicos. Estos documentos permanecen fuera del repositorio publico.
+- Una consulta saliente previa de Workana documentada; no equivale a propuesta economica, contrato ni venta. LinkedIn ya tiene oferta publicada y pagina de servicios con dos muestras propias.
+- Fotos y publicacion de Fiverr siguen diferidas por el titular. La prueba de compra del creador en Gumroad y descarga v1.0.2 estan verificadas; no son venta real. No hay seguimiento automatico ni campanas pagadas activas creadas por este trabajo.
 
 ## Publico y comprobado
 
@@ -16,7 +24,7 @@ Actualizado: 2026-09-16. El objetivo general sigue abierto; no se declara consol
 - LinkedIn: logo, portada, doce especialidades y descripciones ES/EN. Presentacion publicada: https://www.linkedin.com/feed/update/urn:li:share:7504194026607378432/ . Evidencia en `social/linkedin/launch-status.md`.
 - Facebook: portada, logo, bio y categorias guardados; presentacion fijada en Destacados. Boton Contactarnos configurado hacia el sitio. Segunda publicacion sobre Nexo Catalog visible con audiencia publica y enlace a la demo. Evidencia en `social/facebook/launch-status.md` y `social/facebook/catalog-post-2026-09-13.md`.
 - Workana: se conserva el perfil linguistico y se agrega la oferta tecnologica a Sobre mi. Proyecto propio de la web de Nexo publicado con captura real y HTML/CSS/JavaScript; comprobado despues de recargar. Detalle en `social/marketplaces/launch-status.md`.
-- Gumroad: Nexo Brief publicado con autorizacion del titular a USD 0 con aportacion opcional: https://pugmaster0.gumroad.com/l/nexo-brief . Ficha publica comprobada con marca, descripcion, portada, precio y acceso al checkout; editor muestra Unpublish. No se ha realizado una compra de prueba.
+- Gumroad: Nexo Brief publicado con autorizacion del titular a USD 0 con aportacion opcional: https://pugmaster0.gumroad.com/l/nexo-brief . Ficha publica comprobada con marca, descripcion, portada y precio. El 2026-09-21 se completo el checkout de prueba del creador y se verifico la descarga v1.0.2 por SHA-256; no es una venta real ni prueba de liquidacion. Detalle mas abajo.
 - Nexo Brief: herramienta ES/EN y ZIP publicados en `products/brief-kit/`. Importacion, validacion, guardado y recarga probados; descargas reales JSON y Markdown verificadas. Ocho combinaciones idioma/ancho sin desbordamiento. Documento imprimible construido; PDF paginado no verificado. Detalles en `launch/verification-2026-09-12.md`.
 - Nexo Catalog: automatizacion funcional de revision CSV en `products/catalog-check/`. Columnas asignables, validacion, duplicados, filtros, detalle, paginacion y exportaciones reales verificados. ES/EN, datos locales, sin IA ni integracion con inventarios. Evidencia en `launch/catalog-verification-2026-09-13.md`.
 - Enlaces de ambas herramientas en el pie de la web; ultima regresion del enlace Nexo Catalog en doce idiomas por cuatro anchos aprobada.

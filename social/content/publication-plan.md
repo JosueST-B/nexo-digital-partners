@@ -6,6 +6,8 @@ Actualizacion 2026-09-13: se publico una pieza adicional de demostracion sobre N
 
 ## Criterio editorial
 
+Actualizacion 2026-09-22: oferta Landing Express publicada tambien en Facebook, desde Nexo y con audiencia publica. Ver `../facebook/landing-offer-2026-09-22.md`. Sin anuncios ni fotos nuevas. El dossier `../../launch/portfolio-cases.md` presenta tres casos propios ES/EN; las piezas 02-06 siguen siendo borradores.
+
 Actualizacion 2026-09-21: publicada en LinkedIn la oferta Landing Express desde USD 150, con entregables, exclusiones y enlace a contacto. Registro: `../linkedin/landing-offer-2026-09-21.md`. No se contrataron anuncios ni se usaron fotos nuevas. Las piezas 02-06 siguen pendientes.
 
 Actualizacion 2026-09-16: Nexo Brief anunciado tambien en Facebook mediante texto y vista previa del enlace de Gumroad, sin fotos nuevas. Publicacion y audiencia publica verificadas; transcripcion en `../facebook/brief-post-2026-09-16.md`. No volver a publicar este anuncio como si siguiera pendiente. Las piezas 02-06 de portafolio siguen siendo borradores.

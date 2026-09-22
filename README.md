@@ -23,6 +23,8 @@ Nexo Catalog usa Papa Parse, no IA ni OCR, y no esta integrado con un ERP. Nexo 
 
 ## Servicios con alcance definido
 
+[Contratar la landing en Fiverr](https://www.fiverr.com/josuep744/build-a-responsive-landing-page-for-your-professional-service): USD 150, 7 dias, hasta cinco secciones, un idioma y dos revisiones. El alcance completo y las exclusiones estan en la ficha publicada; no incluye todos los servicios de Nexo.
+
 - Landing pages y webs profesionales para presentar una oferta y recibir consultas.
 - Formularios, catalogos, dashboards y microaplicaciones para un flujo concreto.
 - Arquitectura de contenido y experiencias multilingues, con idiomas y revision acordados.

@@ -34,12 +34,12 @@ assert.deepEqual(Object.keys(context.copy.es).sort(), Object.keys(context.copy.e
 assert.equal(context.copy.es.typeOptions.length, model.types.length);
 const html = fs.readFileSync(path.join(root,'index.html'),'utf8');
 for (const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)) {
-  if (match[1] === 'https://josuest-b.github.io/nexo-digital-partners/#contacto') continue;
+  if (match[1] === 'https://nexodipa.github.io/nexo-digital-partners/#contacto') continue;
   assert.ok(!/^https?:/.test(match[1]), 'No remote dependencies');
   const asset = fileURLToPath(new URL(match[1],pathToFileURL(root+path.sep)));
   assert.ok(fs.existsSync(asset), 'Local asset exists: '+match[1]);
 }
-assert.ok(html.includes('href="https://josuest-b.github.io/nexo-digital-partners/#contacto" target="_blank" rel="noopener noreferrer" data-copy="services"'));
+assert.ok(html.includes('href="https://nexodipa.github.io/nexo-digital-partners/#contacto" target="_blank" rel="noopener noreferrer" data-copy="services"'));
 assert.equal(context.copy.es.services, 'Solicitar una propuesta a Nexo');
 assert.equal(context.copy.en.services, 'Request a proposal from Nexo');
 assert.ok(!/\bfetch\s*\(|XMLHttpRequest|sendBeacon|\.innerHTML\s*=|eval\s*\(/.test(source));

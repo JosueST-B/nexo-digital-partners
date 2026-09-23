@@ -32,4 +32,4 @@ Do not enter passwords, identity documents, clinical records or other people's p
 
 You may use this copy for personal or commercial project planning and share the briefs you produce. Reselling this tool or claiming ownership of its brand is not permitted. Lucide icons retain their included license at `assets/lucide-LICENSE`.
 
-Nexo Digital Partners: https://josuest-b.github.io/nexo-digital-partners/
+Nexo Digital Partners: https://nexodipa.github.io/nexo-digital-partners/

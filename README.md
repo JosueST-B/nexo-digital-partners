@@ -2,7 +2,7 @@
 
 Webs profesionales, herramientas operativas y automatizacion para profesionales y pequenos negocios. Definimos el problema, acordamos el alcance y construimos una primera entrega que se pueda probar.
 
-[Ver el sitio](https://josuest-b.github.io/nexo-digital-partners/) · [Solicitar una propuesta](https://josuest-b.github.io/nexo-digital-partners/#contacto) · [Recursos en Gumroad](https://pugmaster0.gumroad.com/)
+[Ver el sitio](https://nexodipa.github.io/nexo-digital-partners/) · [Solicitar una propuesta](https://nexodipa.github.io/nexo-digital-partners/#contacto) · [Recursos en Gumroad](https://pugmaster0.gumroad.com/)
 
 ![Captura real del sitio de Nexo Digital Partners](social/marketplaces/nexo-web-workana.png)
 
@@ -14,8 +14,8 @@ Proyecto propio. La captura muestra la web; el monograma de su cabecera es una i
 
 | Herramienta | Para que sirve | Probar y revisar |
 | --- | --- | --- |
-| Nexo Brief | Ordenar objetivo, publico, alcance y entregables. Interfaz ES/EN, guardado manual, importacion JSON y exportaciones JSON/Markdown. | [Abrir](https://josuest-b.github.io/nexo-digital-partners/products/brief-kit/) / [Descarga gratuita con aportacion opcional](https://pugmaster0.gumroad.com/l/nexo-brief) / [Codigo y guia](products/brief-kit/) |
-| Nexo Catalog | Revisar un CSV de productos: columnas asignables, precios, existencias, SKU duplicados e informes exportables. Interfaz ES/EN. | [Abrir](https://josuest-b.github.io/nexo-digital-partners/products/catalog-check/) / [Codigo y guia](products/catalog-check/) |
+| Nexo Brief | Ordenar objetivo, publico, alcance y entregables. Interfaz ES/EN, guardado manual, importacion JSON y exportaciones JSON/Markdown. | [Abrir](https://nexodipa.github.io/nexo-digital-partners/products/brief-kit/) / [Descarga gratuita con aportacion opcional](https://pugmaster0.gumroad.com/l/nexo-brief) / [Codigo y guia](products/brief-kit/) |
+| Nexo Catalog | Revisar un CSV de productos: columnas asignables, precios, existencias, SKU duplicados e informes exportables. Interfaz ES/EN. | [Abrir](https://nexodipa.github.io/nexo-digital-partners/products/catalog-check/) / [Codigo y guia](products/catalog-check/) |
 
 Ambas herramientas trabajan con datos locales en el navegador. No envian el contenido de las fichas o CSV a Nexo. La version alojada genera las solicitudes web normales al proveedor de alojamiento. No introduzcas contrasenas, datos clinicos ni informacion sensible; las exportaciones no estan cifradas.
 
@@ -30,7 +30,7 @@ Nexo Catalog usa Papa Parse, no IA ni OCR, y no esta integrado con un ERP. Nexo 
 - Arquitectura de contenido y experiencias multilingues, con idiomas y revision acordados.
 - Kits manuales de trabajo con IA; integraciones y ejecucion automatica se cotizan aparte.
 
-Los precios de entrada, ejemplos y contacto estan en el [sitio comercial](https://josuest-b.github.io/nexo-digital-partners/#planes). Dominio, alojamiento, servicios externos y mantenimiento se acuerdan por separado. [Entregables, exclusiones y criterios de aceptacion](launch/service-offers.md).
+Las opciones de servicio, ejemplos y contacto estan en el [sitio comercial](https://nexodipa.github.io/nexo-digital-partners/#planes). Dominio, alojamiento, servicios externos y mantenimiento se acuerdan por separado. [Entregables, exclusiones y criterios de aceptacion](launch/service-offers.md).
 
 Los trabajos del portafolio son proyectos propios o prototipos identificados como tales. No se presentan como encargos de clientes, testimonios ni pruebas de ventas. No garantizamos trafico, posicionamiento o resultados comerciales. Las ideas investigadas en [GitHub y Hugging Face](launch/research.md) se distinguen de las funciones implementadas.
 

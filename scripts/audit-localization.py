@@ -51,7 +51,7 @@ keys = sorted(k for k in copy.keys if k not in fixed and not k.startswith(("$", 
 script = """
 const fs = require('node:fs'), vm = require('node:vm');
 const context = vm.createContext({window:{}});
-for (const file of ['translations.js','studio-copy.js','locale-completion.js']) {
+for (const file of ['translations.js','studio-copy.js','locale-completion.js','portfolio-copy.js']) {
   if (fs.existsSync(file)) vm.runInContext(fs.readFileSync(file,'utf8'), context, {filename:file});
 }
 process.stdout.write(JSON.stringify(context.window));

@@ -73,3 +73,6 @@ dialog { padding:16px; }.dialog-heading h2 { font-size:21px; }html[dir='rtl'] .h
 }
 @media(max-width:370px) { .hero h1 { font-size:37px; }.brand img { display:none; }.hero-actions { gap:16px; }.hero-actions .primary-button { padding-inline:16px; } }
 @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; }*,*::before,*::after { transition:none!important; } }
+.project-footer { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; margin-top:20px; padding-top:14px; border-top:1px solid var(--line); }
+.project-footer > span { font-size:11px; color:var(--muted); }
+.project-footer .text-link { margin-top:0; }

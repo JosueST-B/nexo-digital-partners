@@ -4,6 +4,36 @@ ES / EN. Proyectos propios, no encargos de clientes. Mostramos problemas de dise
 
 Own projects, not client commissions. These cases describe design problems and working solutions, not proven revenue, time savings or clinical outcomes.
 
+## Seleccion actualizada / Updated selection · 2026-09-23
+
+### Volia Control
+
+![Volia Control sin registros privados](../assets/portfolio/volia-control-20260923.jpg)
+
+**ES:** Espacio local para cotizaciones, inventario, cobros y documentos. La captura muestra una sesion sin registros privados. Se revisaron la pantalla de inicio y la navegacion; esta revision de portafolio no certifica todos los modulos, seguridad ni resultados de negocio. No se publica una base de datos ni una nueva demo operativa.
+
+**EN:** Local workspace for quotes, inventory, collections and documents. The screenshot contains no private records. The home screen and navigation were reviewed; this portfolio review does not certify every module, security or business outcomes. No database or new operational demo is published.
+
+### Psicocalc
+
+![Psicocalc con ejemplo ficticio](../assets/portfolio/psicocalc-20260923.jpg)
+
+**ES:** Prototipo de captura de puntuaciones, visualizacion de perfiles e informes. Nombre, evaluador y motivo se sustituyeron en la interfaz por etiquetas de demostracion. Las puntuaciones son de ejemplo. No se afirma validacion clinica, acreditacion ni autorizacion de los titulares de las pruebas.
+
+**EN:** Prototype for score entry, visual profiles and reports. Name, evaluator and purpose were replaced in the interface with demonstration labels. Scores are examples. No clinical validation, accreditation or authorization from test publishers is claimed.
+
+### FormCraft Studio
+
+![Editor real de FormCraft Studio](../assets/portfolio/formcraft-20260923.jpg)
+
+**ES:** Constructor visual con campos configurables, vistas adaptables y generacion de HTML. Se comprobo la vista del editor y el panel de codigo generado. La captura usa modo demostracion; el envio real requiere configurar un proveedor o endpoint. No se enviaron formularios.
+
+**EN:** Visual builder with configurable fields, responsive previews and HTML generation. The editor and generated-code panel were checked. The screenshot uses demonstration mode; actual submissions need a configured provider or endpoint. No forms were sent.
+
+**Capturas / Captures:** Las tres aplicaciones se ejecutaron localmente. Scriptorium y Psyche Lab se capturaron desde sus sitios actuales bajo nexodipa.github.io. Son capturas directas del navegador, sin generar ni retocar interfaces con IA. / The three applications ran locally. Scriptorium and Psyche Lab were captured from their current nexodipa.github.io sites. These are direct browser captures, not AI-generated or retouched interfaces.
+
+**Pendiente / Pending:** SynthMind AI y el proyecto de trading no se incluyen en esta seleccion: falta verificar un flujo representativo de SynthMind y revisar las afirmaciones de resultados y certificaciones del proyecto financiero. / SynthMind AI and the trading project are not included in this selection: a representative SynthMind workflow and the financial project's performance and certification claims still need review.
+
 ## 01. Nexo Digital Partners
 
 ![Captura real de la web de Nexo](../social/marketplaces/nexo-web-workana.png)
@@ -18,7 +48,7 @@ Own projects, not client commissions. These cases describe design problems and w
 
 **English:** Our own service website organizes offers, project-based quotes, examples and contact. It supports twelve interface languages, including Arabic and Hebrew RTL. Try switching languages and preparing a fictional inquiry. Sending remains a separate visitor action; there is no connected CRM or automatic submission. The brand illustration is not an office photograph, and the website is not evidence of client sales.
 
-[Ver demo / Open demo](https://josuest-b.github.io/nexo-digital-partners/) · [Codigo / Source](https://github.com/JosueST-B/nexo-digital-partners)
+[Ver demo / Open demo](https://nexodipa.github.io/nexo-digital-partners/) · [Codigo / Source](https://github.com/JosueST-B/nexo-digital-partners)
 
 ## 02. Nexo Brief
 
@@ -32,7 +62,7 @@ Own projects, not client commissions. These cases describe design problems and w
 
 **English:** An ES/EN project brief turns an initial idea into objectives, audience, requirements and scope. Try exporting a fictional brief and importing it again. Manual local saving and JSON/Markdown exports are available. The optional contact link does not attach answers. This is not a professional estimate or consulting service; exported files are not encrypted. Browser print pagination has not been verified.
 
-[Probar / Try](https://josuest-b.github.io/nexo-digital-partners/products/brief-kit/) · [Descarga gratuita, aportacion opcional / Free download, optional contribution](https://pugmaster0.gumroad.com/l/nexo-brief)
+[Probar / Try](https://nexodipa.github.io/nexo-digital-partners/products/brief-kit/) · [Descarga gratuita, aportacion opcional / Free download, optional contribution](https://pugmaster0.gumroad.com/l/nexo-brief)
 
 ## 03. Nexo Catalog
 
@@ -46,7 +76,7 @@ Own projects, not client commissions. These cases describe design problems and w
 
 **English:** A local CSV review tool maps columns, checks prices and stock, flags duplicate SKUs and exports review reports. The fictional eight-record example produces three valid records and five requiring review. Exports include the full review regardless of the active filter. Limits are 2 MB and 5,000 records. It does not update inventory, preserve extra columns, use AI or modify the original file. Reloading clears the session.
 
-[Probar / Try](https://josuest-b.github.io/nexo-digital-partners/products/catalog-check/) · [Reglas y limites / Rules and limits](../products/catalog-check/README.md)
+[Probar / Try](https://nexodipa.github.io/nexo-digital-partners/products/catalog-check/) · [Reglas y limites / Rules and limits](../products/catalog-check/README.md)
 
 ## De una muestra a tu proyecto / From a Sample to Your Project
 
@@ -54,4 +84,4 @@ Estas demos muestran capacidades concretas, no un paquete que incluya todas las 
 
 These examples demonstrate specific capabilities, not an all-inclusive package. Content, users, languages, storage, revisions, integrations and maintenance are agreed for each commission.
 
-[Solicitar una propuesta / Request a proposal](https://josuest-b.github.io/nexo-digital-partners/#contacto)
+[Solicitar una propuesta / Request a proposal](https://nexodipa.github.io/nexo-digital-partners/#contacto)

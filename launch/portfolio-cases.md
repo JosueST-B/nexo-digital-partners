@@ -10,13 +10,13 @@ Own projects, not client commissions. These cases describe design problems and w
 
 **Problema:** una oferta amplia necesita explicar servicios, limites y ejemplos sin obligar al visitante a pedir toda la informacion por mensajes.
 
-**Solucion:** web responsive con servicios, precios de partida, portafolio identificado y formulario que prepara una consulta para WhatsApp o correo. Selector de doce idiomas, incluidos arabe y hebreo con direccion RTL.
+**Solucion:** web responsive con servicios, cotizacion por proyecto, portafolio identificado y formulario que prepara una consulta para WhatsApp o correo. Selector de doce idiomas, incluidos arabe y hebreo con direccion RTL.
 
 **Demostracion:** cambiar el idioma, revisar un proyecto y preparar una consulta ficticia. El visitante decide si la envia; no hay envio automatico ni CRM conectado.
 
 **Limite:** es nuestra propia web, no evidencia de conversiones de clientes. El monograma es una ilustracion de marca, no una fotografia de instalaciones.
 
-**English:** Our own service website organizes offers, starting prices, examples and contact. It supports twelve interface languages, including Arabic and Hebrew RTL. Try switching languages and preparing a fictional inquiry. Sending remains a separate visitor action; there is no connected CRM or automatic submission. The brand illustration is not an office photograph, and the website is not evidence of client sales.
+**English:** Our own service website organizes offers, project-based quotes, examples and contact. It supports twelve interface languages, including Arabic and Hebrew RTL. Try switching languages and preparing a fictional inquiry. Sending remains a separate visitor action; there is no connected CRM or automatic submission. The brand illustration is not an office photograph, and the website is not evidence of client sales.
 
 [Ver demo / Open demo](https://josuest-b.github.io/nexo-digital-partners/) · [Codigo / Source](https://github.com/JosueST-B/nexo-digital-partners)
 

@@ -110,7 +110,6 @@ function prepareRequest() {
     ["Nombre / marca", data.get("name")],
     ["Contacto", data.get("contact")],
     ["Tipo de solucion", quoteForm.elements.project.selectedOptions[0].textContent],
-    ["Presupuesto aproximado", quoteForm.elements.budget.selectedOptions[0].textContent],
     ["Contexto del proyecto", data.get("message")]
   ];
   preparedMessage = [

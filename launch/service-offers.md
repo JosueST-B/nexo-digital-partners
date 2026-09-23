@@ -1,8 +1,8 @@
 # Nexo - fichas comerciales
 
-Preparadas el 2026-09-12. Los importes son los precios de partida que ya aparecen en el sitio, no presupuestos cerrados. Antes de aceptar un proyecto se acuerdan alcance, calendario, revisiones y condiciones de pago por escrito. No hay plazas, descuentos ni plazos de entrega inventados.
+Preparadas el 2026-09-12. Actualizadas el 2026-09-22: la web presenta los servicios sin tarifas publicas; cada proyecto se cotiza segun su alcance. Antes de aceptar un proyecto se acuerdan alcance, calendario, revisiones y condiciones de pago por escrito. No hay plazas, descuentos ni plazos de entrega inventados.
 
-## 01. Landing Express | desde USD 150
+## 01. Landing Express
 
 **Para:** un profesional o negocio con una oferta concreta que necesita presentarla y recibir consultas.
 
@@ -14,7 +14,7 @@ Preparadas el 2026-09-12. Los importes son los precios de partida que ya aparece
 
 **Aceptacion:** enlaces correctos; navegacion por teclado; imagenes autorizadas; sin desbordamiento horizontal en los anchos acordados; consulta preparada con los datos esperados y sin envio automatico.
 
-## 02. Web Profesional | desde USD 350
+## 02. Web Profesional
 
 **Para:** marcas de servicios, educacion, consultoria o comercios que necesitan organizar una oferta mas amplia.
 
@@ -28,7 +28,7 @@ Preparadas el 2026-09-12. Los importes son los precios de partida que ya aparece
 
 **Evidencia propia:** Scriptorium y Psyche Lab estan enlazados desde el portafolio. No presentarlos como clientes externos ni atribuirles resultados comerciales sin pruebas.
 
-## 03. Sistema Digital | desde USD 600
+## 03. Sistema Digital
 
 **Para:** un equipo pequeno que necesita resolver un flujo especifico con un formulario, cotizador, dashboard o microaplicacion.
 
@@ -42,7 +42,7 @@ Preparadas el 2026-09-12. Los importes son los precios de partida que ya aparece
 
 **Evidencia propia:** MedStock es un prototipo de inventario; Nexo Brief es una herramienta de alcance. MedStock requiere revisar reglas y datos de ejemplo antes de cualquier uso real.
 
-## 04. Flujo de trabajo con IA | desde USD 120
+## 04. Flujo de trabajo con IA
 
 **Para:** una tarea repetitiva de contenido, clasificacion o preparacion de reportes que hoy requiere pasos manuales claros.
 

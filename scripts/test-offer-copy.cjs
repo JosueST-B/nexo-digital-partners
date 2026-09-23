@@ -26,7 +26,11 @@ for (const source of sources) {
   }
 }
 assert.ok(!html.includes('<h3>Automatizacion IA</h3>'), 'Manual kit must not be titled as automatic integration');
-for (const amount of [150, 350, 600, 120]) {
-  assert.ok(html.includes(`Desde $${amount}</span>`), `Existing price changed: ${amount}`);
+assert.ok(!/\$\s*\d|class="price"|name="budget"/.test(html), 'Service prices and budget bands must not appear');
+for (const project of ['landing', 'web', 'dashboard', 'automation']) {
+  assert.ok(html.includes(`data-project="${project}"`), `Missing inquiry link: ${project}`);
 }
-console.log('Offer copy: 3 Spanish sources, 33 translations and 4 unchanged prices verified.');
+assert.ok(html.includes('Cada propuesta define entregables, secciones, funciones, revisiones y tiempos.'));
+const script = fs.readFileSync(path.join(root, 'script.js'), 'utf8');
+assert.ok(!script.includes('elements.budget'), 'Inquiry must work without a budget field');
+console.log('Offer copy: translations, price-free services and inquiry links verified.');

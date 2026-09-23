@@ -42,7 +42,7 @@ args = parser.parse_args()
 root = Path(__file__).resolve().parent.parent
 html = (root / "index.html").read_text(encoding="utf-8")
 assert 'locale-completion.js?v=20260915-brief' in html, 'Current catalogue must be loaded by the page'
-assert html.index('locale-completion.js?') < html.index('src="script.js"'), 'Load translations before UI initialization'
+assert html.index('locale-completion.js?') < html.index('src="script.js'), 'Load translations before UI initialization'
 copy = CopyParser()
 copy.feed(html)
 copy.keys.update({"Nombre / marca", "Mensaje copiado.", "No se pudo copiar. Abre WhatsApp o correo."})

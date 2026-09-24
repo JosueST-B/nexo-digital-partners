@@ -16,4 +16,10 @@ for (const id of ['volia-control', 'psicocalc', 'formcraft', 'scriptorium', 'psy
 assert.ok(html.includes('Ejemplo ficticio; no acredita validación clínica.'));
 assert.ok(html.includes('El envío real requiere configurar un servicio.'));
 assert.ok(html.includes('Captura sin registros privados.'));
+assert.ok(html.includes('href="https://psicocalc-pearl.vercel.app/"'));
+const script = fs.readFileSync(path.join(root, 'script.js'), 'utf8');
+assert.ok(script.includes('captureLink.textContent = "Ver captura"'));
+for (const match of html.matchAll(/<img src="(assets\/portfolio\/[^\"]+)"/g)) {
+  assert.ok(fs.existsSync(path.join(root, match[1])), `Missing example: ${match[1]}`);
+}
 console.log('PASS: eight portfolio entries, current captures, links, copy loading and scope disclaimers.');

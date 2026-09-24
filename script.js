@@ -82,6 +82,18 @@ document.querySelectorAll("[data-project]").forEach(link => {
     result.hidden = true;
   });
 });
+// Local-only projects expose their real capture, not a misleading live-demo link.
+document.querySelectorAll(".portfolio-card").forEach(card => {
+  const liveLink = card.querySelector('a[href^="https://"]');
+  if (liveLink) return;
+  const captureLink = document.createElement("a");
+  captureLink.className = "text-link";
+  captureLink.href = card.querySelector(".project-image img").getAttribute("src");
+  captureLink.target = "_blank";
+  captureLink.rel = "noopener noreferrer";
+  captureLink.textContent = "Ver captura";
+  card.append(captureLink);
+});
 document.querySelectorAll("[data-preview]").forEach(button => {
   button.addEventListener("click", () => {
     previewTrigger = button;

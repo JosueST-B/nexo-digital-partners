@@ -2,6 +2,7 @@
 (() => {
   const locales = ["en","de","fr","pt","it","ru","cs","zh","ja","he","ar"];
   const rows = [
+  ["Ver captura", "View screenshot", "Screenshot ansehen", "Voir la capture", "Ver captura", "Vedi schermata", "Посмотреть снимок", "Zobrazit snímek", "查看截图", "スクリーンショットを見る", "הצגת צילום מסך", "عرض لقطة الشاشة"],
   [
     "Cotizaciones, inventario, cobros y documentos en un espacio de trabajo local. Captura sin registros privados.",
     "Quotes, inventory, collections and documents in a local workspace. Screenshot without private records.",
@@ -49,4 +50,3 @@
     locales.forEach((locale, i) => { window.NEXO_TRANSLATIONS[locale][source] = values[i]; });
   }
 })();
-

@@ -84,7 +84,7 @@ document.querySelectorAll("[data-project]").forEach(link => {
 });
 // Local-only projects expose their real capture, not a misleading live-demo link.
 document.querySelectorAll(".portfolio-card").forEach(card => {
-  const liveLink = card.querySelector('a[href^="https://"]');
+  const liveLink = card.querySelector('a[href^="https://"], a[href^="demos/"]');
   if (liveLink) return;
   const captureLink = document.createElement("a");
   captureLink.className = "text-link";

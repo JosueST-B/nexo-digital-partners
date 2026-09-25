@@ -29,6 +29,7 @@ jobs:
           python3 scripts/audit-localization.py
           node scripts/test-offer-copy.cjs
           node scripts/test-portfolio.cjs
+          node scripts/test-demos.cjs
 
       - name: Check product logic and downloadable package
         run: |
